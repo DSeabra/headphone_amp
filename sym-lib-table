@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "integrated_circuits") (type "KiCad") (uri "${KIPRJMOD}/library/integrated_circuits.kicad_sym") (options "") (descr ""))
+	(lib (name "power_symbols") (type "KiCad") (uri "${KIPRJMOD}/library/power_symbols.kicad_sym") (options "") (descr ""))
+	(lib (name "resistors") (type "KiCad") (uri "${KIPRJMOD}/library/resistors.kicad_sym") (options "") (descr ""))
+)

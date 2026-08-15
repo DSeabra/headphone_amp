@@ -416,7 +416,7 @@
         "uuid": "62ffec33-ae93-49a8-bfe6-566578dd8e82"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J1-2,D1,#PWR9-10,FB1",
     "variants": []
   },
   "sheets": [
@@ -427,6 +427,14 @@
     [
       "88a6fbe6-41b3-454b-9d65-28a89e2e6ca4",
       "Battery Charger"
+    ],
+    [
+      "14462d11-f69f-4768-a94b-e7cc4b589cf9",
+      "Power Input"
+    ],
+    [
+      "74a7e50f-a1a3-4295-a28c-ad733432c5cd",
+      "Battery"
     ]
   ],
   "text_variables": {},
