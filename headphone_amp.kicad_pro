@@ -691,7 +691,7 @@
         "uuid": "62ffec33-ae93-49a8-bfe6-566578dd8e82"
       }
     ],
-    "used_designators": "RV1,FB1-2,#PWR5,#PWR13-24,R8-13,J3-5,U1-3,C1-5",
+    "used_designators": "RV1,FB1-2,D2-3,#PWR5,#PWR13-28,R8-16,J3-7,U1-3,C1-7,JP1-2",
     "variants": []
   },
   "sheets": [
@@ -714,6 +714,10 @@
     [
       "fdaed4ad-6382-4025-bc3e-39eb3bc4a0fb",
       "Audio Input"
+    ],
+    [
+      "8fba3b35-d615-47af-8081-02211a3ffbd2",
+      "Current Buffer"
     ]
   ],
   "text_variables": {},

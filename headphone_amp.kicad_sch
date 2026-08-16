@@ -184,7 +184,53 @@
 		)
 	)
 	(sheet
-		(at 40.64 130.81)
+		(at 109.22 113.03)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8fba3b35-d615-47af-8081-02211a3ffbd2")
+		(property "Sheetname" "Current Buffer"
+			(at 109.22 112.3184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buffer.kicad_sch"
+			(at 109.22 123.7746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 110.49)
 		(size 17.78 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -200,7 +246,7 @@
 		)
 		(uuid "fdaed4ad-6382-4025-bc3e-39eb3bc4a0fb")
 		(property "Sheetname" "Audio Input"
-			(at 40.64 130.0984 0)
+			(at 49.53 109.7784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -211,7 +257,7 @@
 			)
 		)
 		(property "Sheetfile" "audio_in.kicad_sch"
-			(at 40.64 142.8246 0)
+			(at 49.53 122.5046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
