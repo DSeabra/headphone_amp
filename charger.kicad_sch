@@ -5,7 +5,7 @@
 	(uuid "c1c2327a-a2a8-4b53-8278-730971ae62d2")
 	(paper "A4")
 	(lib_symbols
-		(symbol "integrated_circuits:SINGLE_CELL_LION_CHARGER_BQ24074RGTR"
+		(symbol "#inventree_kicad:BQ24074RGTR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -48,7 +48,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq24074.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1786314940484&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fbq24074"
+			(property "Datasheet" "http://10.0.0.33/media/attachments/part/2/bq24074.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -104,7 +104,40 @@
 					)
 				)
 			)
-			(symbol "SINGLE_CELL_LION_CHARGER_BQ24074RGTR_0_0"
+			(property "InvenTree" "2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part URL" "http://10.0.0.33/web/part/2/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "integrated_circuits:bq24074rgtr"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BQ24074RGTR_0_0"
 				(rectangle
 					(start -12.7 17.78)
 					(end 12.7 -17.78)
@@ -425,6 +458,356 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "#inventree_kicad:R_10K_0402_1PCT_0W0625"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10K"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 1.016 -0.254 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "IPN" "302-0001"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "InvenTree" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part URL" "http://10.0.0.33/web/part/1/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_10K_0402_1PCT_0W0625_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_10K_0402_1PCT_0W0625_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "#power_symbols:VCC_LOCAL"
+			(power local)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR05"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "V_{CC}"
+				(at 0 4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a local label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_LOCAL_0_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_LOCAL_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -530,369 +913,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power_symbols:+3.3V"
-			(power local)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR04"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 4.064 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a local label with name \"+3.3V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "resistors:R_10K_0402_1PCT_0W0625"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R1"
-				(at 2.54 1.2701 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "10K"
-				(at 2.54 -1.2699 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-				(at 1.016 -0.254 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PN" "RC0402FR-0710KL"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MFG" "Yageo"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "IPN" "302-0001"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_10K_0402_1PCT_0W0625_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_10K_0402_1PCT_0W0625_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1810,7 +1830,7 @@
 		(uuid "ef422b8b-547b-4507-a62c-37936a159ade")
 	)
 	(symbol
-		(lib_id "resistors:R_10K_0402_1PCT_0W0625")
+		(lib_id "#inventree_kicad:R_10K_0402_1PCT_0W0625")
 		(at 184.15 90.17 0)
 		(unit 1)
 		(body_style 1)
@@ -1876,29 +1896,29 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
-			(at 184.15 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PN" "RC0402FR-0710KL"
-			(at 184.15 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "IPN" "302-0001"
+			(at 184.15 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "InvenTree" "1"
+			(at 184.15 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/1/"
 			(at 184.15 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -1925,7 +1945,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power_symbols:+3.3V")
+		(lib_id "#power_symbols:VCC_LOCAL")
 		(at 149.86 87.63 0)
 		(unit 1)
 		(body_style 1)
@@ -1978,7 +1998,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a local label with name \"OUT\""
+		(property "Description" "Power symbol creates a local label with name \"+3.3V\""
 			(at 149.86 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2002,7 +2022,189 @@
 		)
 	)
 	(symbol
-		(lib_id "resistors:R_10K_0402_1PCT_0W0625")
+		(lib_id "#inventree_kicad:BQ24074RGTR")
+		(at 116.84 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2898f0a7-c850-4092-97f6-f2aa69cfcd6f")
+		(property "Reference" "U1"
+			(at 103.632 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BQ24074RGTR"
+			(at 103.632 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "integrated_circuits:bq24074rgtr"
+			(at 116.84 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.33/media/attachments/part/2/bq24074.pdf"
+			(at 116.84 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BQ24074 Standalone 1-Cell 1.5-A Linear Battery Chargers with Power Path"
+			(at 116.84 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "307-0001"
+			(at 116.84 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "InvenTree" "2"
+			(at 116.84 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/2/"
+			(at 116.84 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Texas Instruments"
+			(at 129.032 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PN" "BQ24074RGTR"
+			(at 116.84 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ebde4203-3a3b-4c56-8ee1-90f58814fdca")
+		)
+		(pin "10"
+			(uuid "50bf28fc-c1aa-46cf-9c8b-6ab91d1cd735")
+		)
+		(pin "3"
+			(uuid "ef229fba-f47e-48f1-a216-f884d868d1af")
+		)
+		(pin "6"
+			(uuid "641d7670-86e2-4428-8329-d49039a6c54b")
+		)
+		(pin "5"
+			(uuid "29b9dd3b-65c8-4ec6-afc3-95ba827872c2")
+		)
+		(pin "2"
+			(uuid "494a70ae-0c60-4b02-97a5-647b75581d58")
+		)
+		(pin "4"
+			(uuid "19c81d1b-b1af-491c-988a-ea0d76de8168")
+		)
+		(pin "7"
+			(uuid "cbb5e03d-8bc3-4fd4-bb7b-6f0a46ddc47d")
+		)
+		(pin "8"
+			(uuid "e0824e2e-0acf-49eb-bc10-0202214de36e")
+		)
+		(pin "9"
+			(uuid "ec3cae51-1618-4466-b7e7-ec7763fb6a00")
+		)
+		(pin "14"
+			(uuid "dc63d772-5d11-413a-b6b2-7c64532d7178")
+		)
+		(pin "11"
+			(uuid "cb601b51-8b84-4dd1-b410-8bbe414e7ea2")
+		)
+		(pin "16"
+			(uuid "215a1154-d662-466d-b054-7855e1621601")
+		)
+		(pin "12"
+			(uuid "9eaa92c7-b62c-4762-ab70-62017044fba6")
+		)
+		(pin "13"
+			(uuid "a078e4f2-dd61-4ca2-bd7d-c097354c38a2")
+		)
+		(pin "15"
+			(uuid "41cd5981-f5f2-4585-a4e5-6a419610edd0")
+		)
+		(pin "17"
+			(uuid "1ff325c3-3e73-4a47-a149-5b6892d06a6c")
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/88a6fbe6-41b3-454b-9d65-28a89e2e6ca4"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree_kicad:R_10K_0402_1PCT_0W0625")
 		(at 156.21 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -2068,29 +2270,29 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
-			(at 156.21 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PN" "RC0402FR-0710KL"
-			(at 156.21 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "IPN" "302-0001"
+			(at 156.21 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "InvenTree" "1"
+			(at 156.21 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/1/"
 			(at 156.21 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -2117,84 +2319,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power_symbols:+3.3V")
-		(at 171.45 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "63a7c8cd-eee0-4d5f-ba77-17761c895604")
-		(property "Reference" "#PWR05"
-			(at 171.45 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OUT"
-			(at 171.45 74.422 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a local label with name \"OUT\""
-			(at 171.45 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0e418fd1-17b9-47d6-952e-e9916b181173")
-		)
-		(instances
-			(project "headphone_amp"
-				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/88a6fbe6-41b3-454b-9d65-28a89e2e6ca4"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power_symbols:+3.3V")
+		(lib_id "#power_symbols:VCC_LOCAL")
 		(at 213.36 27.94 0)
 		(unit 1)
 		(body_style 1)
@@ -2247,7 +2372,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a local label with name \"OUT\""
+		(property "Description" "Power symbol creates a local label with name \"+3.3V\""
 			(at 213.36 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -2271,7 +2396,7 @@
 		)
 	)
 	(symbol
-		(lib_id "resistors:R_10K_0402_1PCT_0W0625")
+		(lib_id "#inventree_kicad:R_10K_0402_1PCT_0W0625")
 		(at 171.45 90.17 0)
 		(unit 1)
 		(body_style 1)
@@ -2337,29 +2462,29 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
-			(at 171.45 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PN" "RC0402FR-0710KL"
-			(at 171.45 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "IPN" "302-0001"
+			(at 171.45 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "InvenTree" "1"
+			(at 171.45 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/1/"
 			(at 171.45 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2540,7 +2665,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power_symbols:+3.3V")
+		(lib_id "#power_symbols:VCC_LOCAL")
 		(at 184.15 78.74 0)
 		(unit 1)
 		(body_style 1)
@@ -2593,7 +2718,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a local label with name \"OUT\""
+		(property "Description" "Power symbol creates a local label with name \"+3.3V\""
 			(at 184.15 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2694,7 +2819,7 @@
 		)
 	)
 	(symbol
-		(lib_id "resistors:R_10K_0402_1PCT_0W0625")
+		(lib_id "#inventree_kicad:R_10K_0402_1PCT_0W0625")
 		(at 171.45 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -2760,29 +2885,29 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
-			(at 171.45 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PN" "RC0402FR-0710KL"
-			(at 171.45 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "IPN" "302-0001"
+			(at 171.45 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "InvenTree" "1"
+			(at 171.45 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/1/"
 			(at 171.45 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -2809,8 +2934,8 @@
 		)
 	)
 	(symbol
-		(lib_id "integrated_circuits:SINGLE_CELL_LION_CHARGER_BQ24074RGTR")
-		(at 116.84 99.06 0)
+		(lib_id "#power_symbols:VCC_LOCAL")
+		(at 171.45 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2818,42 +2943,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce44851d-c921-4029-9589-972b3c402d00")
-		(property "Reference" "U1"
-			(at 116.84 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BQ24074RGTR"
-			(at 116.84 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "integrated_circuits:bq24074rgtr"
-			(at 118.618 77.216 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq24074.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1786314940484&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fbq24074"
-			(at 116.84 99.06 0)
+		(uuid "d7888682-a072-4ab8-a255-e51206667cf7")
+		(property "Reference" "#PWR017"
+			(at 171.45 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2863,8 +2955,18 @@
 				)
 			)
 		)
-		(property "Description" "BQ24074 Standalone 1-Cell 1.5-A Linear Battery Chargers with Power Path"
-			(at 116.84 99.06 0)
+		(property "Value" "OUT"
+			(at 171.45 74.422 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2874,20 +2976,8 @@
 				)
 			)
 		)
-		(property "MFG" "Texas Instruments"
-			(at 129.032 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PN" "BQ24074RGTR"
-			(at 116.84 99.06 0)
+		(property "Datasheet" ""
+			(at 171.45 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2897,8 +2987,8 @@
 				)
 			)
 		)
-		(property "IPN" "307-0001"
-			(at 116.84 99.06 0)
+		(property "Description" "Power symbol creates a local label with name \"+3.3V\""
+			(at 171.45 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2907,62 +2997,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "14"
-			(uuid "26e6d595-28cb-4d7b-93bf-d4f72e5a34fe")
-		)
-		(pin "17"
-			(uuid "d570f2b2-8c4d-4dd3-9342-3c35922cd083")
-		)
-		(pin "6"
-			(uuid "7e2914a8-99b8-4318-8e38-1379ccaf412f")
-		)
-		(pin "16"
-			(uuid "ea89ee1f-d2a0-4519-9faa-3cf5593c2327")
 		)
 		(pin "1"
-			(uuid "464ee433-ef8c-4f0c-bf81-9e8f1f28b008")
-		)
-		(pin "2"
-			(uuid "f025280d-6cc9-40fb-a4b4-32a824631f89")
-		)
-		(pin "5"
-			(uuid "d20fe652-451c-4625-adcd-eb32043c0af5")
-		)
-		(pin "7"
-			(uuid "b5489631-87ac-470e-b5c7-cfa9dc4c6cb4")
-		)
-		(pin "8"
-			(uuid "6f239a4b-c60a-4835-b8d5-71ea411f25f6")
-		)
-		(pin "3"
-			(uuid "5e905bd5-699c-40c3-9f34-e3c85441be84")
-		)
-		(pin "9"
-			(uuid "5775496a-02ef-4874-80bd-8c2d812d21ab")
-		)
-		(pin "13"
-			(uuid "918d2188-98f8-490e-ae7a-490196e2f5a6")
-		)
-		(pin "10"
-			(uuid "4bbb629e-c1eb-4b7d-86bf-b73ef5974983")
-		)
-		(pin "11"
-			(uuid "662db5e8-0d1d-4080-9b80-db109bf74f54")
-		)
-		(pin "4"
-			(uuid "751baca6-43e7-4dd5-bd20-f01fcd8dd2cf")
-		)
-		(pin "12"
-			(uuid "2b216af6-dcb8-45a3-896f-2b72d5bc6491")
-		)
-		(pin "15"
-			(uuid "17194d44-112a-4d7a-b41b-e5abd232fab9")
+			(uuid "4547fa12-95a3-489c-a060-40ca064c6389")
 		)
 		(instances
 			(project "headphone_amp"
 				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/88a6fbe6-41b3-454b-9d65-28a89e2e6ca4"
-					(reference "U1")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3046,7 +3088,7 @@
 		)
 	)
 	(symbol
-		(lib_id "resistors:R_10K_0402_1PCT_0W0625")
+		(lib_id "#inventree_kicad:R_10K_0402_1PCT_0W0625")
 		(at 184.15 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -3112,29 +3154,29 @@
 				)
 			)
 		)
-		(property "MFG" "Yageo"
-			(at 184.15 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PN" "RC0402FR-0710KL"
-			(at 184.15 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "IPN" "302-0001"
+			(at 184.15 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "InvenTree" "1"
+			(at 184.15 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/1/"
 			(at 184.15 113.03 0)
 			(hide yes)
 			(show_name no)
