@@ -41,9 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -190,8 +188,8 @@
   },
   "active": "9a9d0d5c73679904",
   "lastOpenFiles": [
-    "Guitar-Headphone-Amp-Theory-of-Operation.md",
     "References.md",
+    "Guitar-Headphone-Amp-Theory-of-Operation.md",
     "Untitled.md"
   ]
 }

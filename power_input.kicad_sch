@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "7e9600ff-776f-4311-8730-ab0c21bf77bf")
 	(paper "A4")
+	(title_block
+		(title "${PROJECT_NAME}")
+		(date "2026-08-25")
+		(rev "${REVISION}")
+		(comment 1 "${PCBA_IPN}")
+	)
 	(lib_symbols
 		(symbol "#inventree_kicad:D_TVS_5.5VMM_SOD923"
 			(pin_numbers

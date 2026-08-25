@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "${REVISION}"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -703,7 +703,7 @@
         "uuid": "62ffec33-ae93-49a8-bfe6-566578dd8e82"
       }
     ],
-    "used_designators": "RV1,FB1-2,D2-3,#PWR5,#PWR13-29,R8-18,J3-7,U1-5,C1-8,JP1-2,L1",
+    "used_designators": "R18-29,C9-17,#PWR30-46,U4",
     "variants": []
   },
   "sheets": [
@@ -734,9 +734,22 @@
     [
       "339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a",
       "Boost"
+    ],
+    [
+      "9e81eff7-fa8a-4d9c-b865-cbf1c6348e7c",
+      "Watchdog"
+    ],
+    [
+      "30c47c1f-896c-4e79-b6a9-de917104acdf",
+      "Rail Splitter"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "PCBA_IPN": "004-0001",
+    "PCB_IPN": "002-0001",
+    "PROJECT_NAME": "Portable Headphone Amp",
+    "REVISION": "A1"
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0

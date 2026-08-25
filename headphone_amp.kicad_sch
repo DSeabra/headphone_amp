@@ -4,9 +4,15 @@
 	(generator_version "10.0")
 	(uuid "62ffec33-ae93-49a8-bfe6-566578dd8e82")
 	(paper "A4")
+	(title_block
+		(title "${PROJECT_NAME}")
+		(date "2026-08-25")
+		(rev "${REVISION}")
+		(comment 1 "${PCBA_IPN}")
+	)
 	(lib_symbols)
 	(sheet
-		(at 95.25 41.91)
+		(at 83.82 35.56)
 		(size 22.86 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +28,7 @@
 		)
 		(uuid "14462d11-f69f-4768-a94b-e7cc4b589cf9")
 		(property "Sheetname" "Power Input"
-			(at 95.25 41.1984 0)
+			(at 83.82 34.8484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +39,7 @@
 			)
 		)
 		(property "Sheetfile" "power_input.kicad_sch"
-			(at 95.25 50.1146 0)
+			(at 83.82 43.7646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44,7 +50,7 @@
 			)
 		)
 		(pin "VBUS" output
-			(at 118.11 45.72 0)
+			(at 106.68 39.37 0)
 			(uuid "b6d85172-1a2f-4f87-948e-4558d0184543")
 			(effects
 				(font
@@ -62,7 +68,53 @@
 		)
 	)
 	(sheet
-		(at 198.12 45.72)
+		(at 231.14 43.18)
+		(size 20.32 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "30c47c1f-896c-4e79-b6a9-de917104acdf")
+		(property "Sheetname" "Rail Splitter"
+			(at 231.14 42.4684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rail_splitter.kicad_sch"
+			(at 231.14 60.2746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.69 39.37)
 		(size 24.13 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -78,7 +130,7 @@
 		)
 		(uuid "339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a")
 		(property "Sheetname" "Boost"
-			(at 198.12 45.0084 0)
+			(at 186.69 38.6584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -89,7 +141,7 @@
 			)
 		)
 		(property "Sheetfile" "boost.kicad_sch"
-			(at 198.12 70.4346 0)
+			(at 186.69 64.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -97,6 +149,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "V_{OUT}" output
+			(at 210.82 50.8 0)
+			(uuid "b8424900-6b17-4075-af5b-11cac805ec1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BOOST_EN" input
+			(at 186.69 54.61 180)
+			(uuid "386a734a-92e9-4d2e-87b5-4f75c1d5fd9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_{SYS}" input
+			(at 186.69 45.72 180)
+			(uuid "d462db51-780d-4840-9953-3620b60f6e53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -108,7 +190,7 @@
 		)
 	)
 	(sheet
-		(at 95.25 60.96)
+		(at 83.82 54.61)
 		(size 22.86 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -124,7 +206,7 @@
 		)
 		(uuid "74a7e50f-a1a3-4295-a28c-ad733432c5cd")
 		(property "Sheetname" "Battery"
-			(at 95.25 60.2484 0)
+			(at 83.82 53.8984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -135,7 +217,7 @@
 			)
 		)
 		(property "Sheetfile" "battery.kicad_sch"
-			(at 95.25 75.5146 0)
+			(at 83.82 69.1646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -146,7 +228,7 @@
 			)
 		)
 		(pin "BAT_THERMISTOR+" output
-			(at 118.11 69.85 0)
+			(at 106.68 63.5 0)
 			(uuid "efe47ef5-d6e8-4c6d-a0b6-f6d33a23f7b5")
 			(effects
 				(font
@@ -156,7 +238,7 @@
 			)
 		)
 		(pin "BAT_THERMISTOR-" output
-			(at 118.11 72.39 0)
+			(at 106.68 66.04 0)
 			(uuid "0d69481d-3265-44ec-91dc-e6471ab9d136")
 			(effects
 				(font
@@ -166,7 +248,7 @@
 			)
 		)
 		(pin "V_{BAT}" output
-			(at 118.11 64.77 0)
+			(at 106.68 58.42 0)
 			(uuid "9ccf7179-c43f-47eb-8e7d-a88f4648ff0e")
 			(effects
 				(font
@@ -184,7 +266,7 @@
 		)
 	)
 	(sheet
-		(at 133.35 48.26)
+		(at 128.27 43.18)
 		(size 30.48 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -200,7 +282,7 @@
 		)
 		(uuid "88a6fbe6-41b3-454b-9d65-28a89e2e6ca4")
 		(property "Sheetname" "Battery Charger"
-			(at 133.35 47.5484 0)
+			(at 128.27 42.4684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -211,7 +293,7 @@
 			)
 		)
 		(property "Sheetfile" "charger.kicad_sch"
-			(at 133.35 69.1646 0)
+			(at 128.27 64.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -271,6 +353,52 @@
 			(project "headphone_amp"
 				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 100.33)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9e81eff7-fa8a-4d9c-b865-cbf1c6348e7c")
+		(property "Sheetname" "Watchdog"
+			(at 139.7 99.6184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "watchdog.kicad_sch"
+			(at 139.7 113.6146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82"
+					(page "8")
 				)
 			)
 		)

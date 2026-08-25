@@ -272,12 +272,76 @@ $$t_{enable} = \tau\,\ln\!\left(\tfrac{9}{9-5.32}\right) \approx 0.89\,\tau$$
 - **Provision, don't commit, for cable stability:** a series-R (start 0 Ω) + optional Zobel (R–C to 0 V) footprint per output, decided on the bench. Keep any series R tiny — even 10 Ω into 32 Ω hurts damping/level, which matters for low-impedance IEMs.
 
 ---
+## 6. Auto-off feature
+This implements an auto-off feature using an envelope detector and a counter (to generate a ~10min timeout). Idea by Claude.
 
-## 6. Tuning guide
+Source diagram for the idle auto-off circuit (envelope detector → CD74HC4060 counter → NOR latch → EN override). Settled topology as of this session; still open: which 4060 stage to use for Qn, R_osc/C_osc values for the ~10 min target, and final R_pu/R_pd/R_por/C_por values.
+
+```mermaid
+flowchart TB
+    SYS(["SYS / battery rail"]) --> SW{{"SW — SPST"}}
+    SW --> SWOUT["SW_OUT"]
+
+    SWOUT --> RPU["R_pu ~470k"]
+    RPU --> EN["boost EN pin"]
+    EN --> RPD["R_pd ~1M"]
+    RPD --> GND1(("GND0"))
+
+    SWOUT --> LDO["LDO — TPS7A02<br/>~2.5V out"]
+    LDO --> VLOGIC["V_logic"]
+
+    TAP["pre-volume audio tap<br/>(recovery stage out)"] --> CAC["C_ac 1µF X7R"]
+    CAC --> NA["node A"]
+    NA --> RBIAS["R_bias ~470k → GND0"]
+    NA --> D1["D1 signal diode"]
+    D1 --> NB["node B — hold"]
+    NB --> CHOLD["C_hold 220nF → GND0"]
+    NB --> R1["R1 ~500k"]
+    R1 --> TAPNODE["threshold tap"]
+    TAPNODE --> R2["R2 ~500k → GND0"]
+
+    TAPNODE --> U132A["U132-A<br/>Schmitt detector<br/>inputs tied"]
+    U132A --> DETOUT["det_out"]
+
+    SWOUT --> RPOR["R_por"]
+    RPOR --> NPOR["node POR"]
+    NPOR --> CPOR["C_por → GND0"]
+    NPOR --> U132B["U132-B<br/>POR shaper<br/>inputs tied"]
+    U132B --> PORPULSE["POR pulse<br/>hi at power-up"]
+
+    DETOUT --> ORNOR["U02-D (NOR)"]
+    PORPULSE --> ORNOR
+    ORNOR --> U132C["U132-C<br/>inverter<br/>inputs tied"]
+    U132C --> RST4060["4060 RESET"]
+
+    OSC["R_osc / C_osc<br/>TBD — sets ~10 min"] --> U4060["CD74HC4060<br/>osc + 14-stage counter"]
+    VLOGIC --> U4060
+    RST4060 --> U4060
+    U4060 --> QN["Qn<br/>pick stage for ~10 min"]
+
+    QN --> U02B["U02-B (S)"]
+    PORPULSE --> U02A["U02-A (R)"]
+    U02A --> LQ["Latch Q<br/>1 = shutdown"]
+    U02A -.feedback.-> U02B
+    U02B -.feedback.-> U02A
+
+    LQ --> QOFF["Q_off<br/>logic-level NFET gate"]
+    QOFF --> EN
+    QOFF --> GND2(("GND0"))
+```
+
+## Notes
+
+- `V_logic` (from the LDO) powers the entire U132 / U02 / 4060 group — individual power wires to each chip omitted from the diagram for legibility.
+- `4060 RESET` is asserted by either condition: actively playing (`det_out`, direct) or fresh power-up (`POR pulse`), combined through one spare NOR gate (`U02-D`) and one spare inverter (`U132-C`).
+- One gate is spare on each chip after the above — tie unused inputs to a defined rail per standard CMOS practice, don't leave floating.
+- Switch open → `SW_OUT` doesn't exist → LDO has no input (watchdog fully unpowered, true storage-off) → `R_pd` holds EN at 0 V deterministically.
+- Switch closed → LDO powers the watchdog fresh, POR pulse clears the latch and resets the counter, `R_pu` pulls EN high (assuming latch hasn't fired).
+## 7. Tuning guide
 
 Everything structural (topology, rail, op-amp choices) is fixed. The **flavor** lives in a handful of socketed/swappable parts. Tune in this order — biggest perceptual effect first.
 
-### 6.1 What each handle does
+### 7.1 What each handle does
 
 | Handle | Turn it ___ | Effect |
 |---|---|---|
@@ -291,7 +355,7 @@ Everything structural (topology, rail, op-amp choices) is fixed. The **flavor** 
 | **`Rf_fixed`** | bigger | raises *minimum* gain (min-drive is dirtier) |
 | **Drive pot taper** | linear vs audio | moves where the usable range sits in rotation |
 
-### 6.2 Suggested order of attack
+### 7.2 Suggested order of attack
 
 1. **Get it working clean first.** Populate with **no diodes** (open sockets) → verify the stage is a clean amp with the expected gain and no rail-slamming or oscillation. This proves the bias, the `C_g` DC-block, and stability before you add nonlinearity.
 2. **Add symmetric silicon (2× 1N4148).** This is the reference voice. Confirm soft clipping on a scope and by ear.
@@ -300,7 +364,7 @@ Everything structural (topology, rail, op-amp choices) is fixed. The **flavor** 
 5. **Adjust `C_fb`** only if the top end feels wrong at high drive (start 51 pF).
 6. **Decide the pot taper** last, once you know where your favorite drive settings land.
 
-### 6.3 Symptom → fix
+### 7.3 Symptom → fix
 
 | Symptom | Likely cause | Try |
 |---|---|---|
@@ -314,7 +378,7 @@ Everything structural (topology, rail, op-amp choices) is fixed. The **flavor** 
 
 ---
 
-## 7. Starting values (rev A baseline)
+## 8. Starting values (rev A baseline)
 
 ```
 Rail:      9 V boost · virtual ground 4.5 V (TLE2426) · both op-amps on V+/VMID
@@ -336,7 +400,7 @@ Result:    gain 12×–118× (21–41 dB) · low-cut ~720Hz
 
 ---
 
-## 8. Further reading
+## 9. Further reading
 
 - **ElectroSmash — "Tube Screamer Analysis"** — component-by-component teardown of exactly this gain/clip topology; the definitive reference for the numbers here.
 - **ElectroSmash — "LM386 Analysis"** and the *runoffgroove* "Ruby" — for the lo-fi power-amp lineage if you ever want a discrete/IC output alternative.
