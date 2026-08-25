@@ -4255,6 +4255,12 @@
 		(uuid "c4dd13b1-4b32-4a9e-8697-504f78d68085")
 	)
 	(junction
+		(at 257.81 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6b6eea8-0e70-45c7-9853-b18fa4f2a408")
+	)
+	(junction
 		(at 116.84 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5218,6 +5224,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 100.33) (xy 266.7 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e8bfff-64c8-42ec-ba33-365905b44f09")
+	)
+	(wire
+		(pts
 			(xy 128.27 163.83) (xy 128.27 157.48)
 		)
 		(stroke
@@ -5608,6 +5624,17 @@
 			(justify right)
 		)
 		(uuid "c59d124a-607d-4f17-aeb5-7a28f8644829")
+	)
+	(hierarchical_label "WD_AUDIO_OUT"
+		(shape output)
+		(at 266.7 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db595fad-18db-4920-918b-92d5d2a0e977")
 	)
 	(symbol
 		(lib_id "#inventree_kicad:PWR_CONN_3PIN_JST_SH3_VERT_SMD")

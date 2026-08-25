@@ -275,7 +275,13 @@ $$t_{enable} = \tau\,\ln\!\left(\tfrac{9}{9-5.32}\right) \approx 0.89\,\tau$$
 ## 6. Auto-off feature
 This implements an auto-off feature using an envelope detector and a counter (to generate a ~10min timeout). Idea by Claude.
 
+# Auto-Off Watchdog — Circuit Diagram
+
 Source diagram for the idle auto-off circuit (envelope detector → CD74HC4060 counter → NOR latch → EN override). Settled topology as of this session; still open: which 4060 stage to use for Qn, R_osc/C_osc values for the ~10 min target, and final R_pu/R_pd/R_por/C_por values.
+
+**Logic chip allocation (finalized):**
+- **74HC14** (hex Schmitt-trigger inverter) — the two jobs that square up a slow analog ramp and need hysteresis: envelope threshold detector (`U14-A`), POR pulse shaper (`U14-B`). 4 gates spare.
+- **74HC02** (quad 2-input NOR) — all pure digital logic, no hysteresis needed: SR latch (`U02-A`/`U02-B`, cross-coupled), and the reset-OR combiner built from a NOR (`U02-C`) followed by a NOR-with-tied-inputs acting as an inverter (`U02-D`), giving `det_out OR por_pulse` for the 4060's RESET pin. All 4 gates used.
 
 ```mermaid
 flowchart TB
@@ -300,19 +306,19 @@ flowchart TB
     R1 --> TAPNODE["threshold tap"]
     TAPNODE --> R2["R2 ~500k → GND0"]
 
-    TAPNODE --> U132A["U132-A<br/>Schmitt detector<br/>inputs tied"]
-    U132A --> DETOUT["det_out"]
+    TAPNODE --> U14A["U14-A<br/>Schmitt detector"]
+    U14A --> DETOUT["det_out"]
 
     SWOUT --> RPOR["R_por"]
     RPOR --> NPOR["node POR"]
     NPOR --> CPOR["C_por → GND0"]
-    NPOR --> U132B["U132-B<br/>POR shaper<br/>inputs tied"]
-    U132B --> PORPULSE["POR pulse<br/>hi at power-up"]
+    NPOR --> U14B["U14-B<br/>POR shaper"]
+    U14B --> PORPULSE["POR pulse<br/>hi at power-up"]
 
-    DETOUT --> ORNOR["U02-D (NOR)"]
-    PORPULSE --> ORNOR
-    ORNOR --> U132C["U132-C<br/>inverter<br/>inputs tied"]
-    U132C --> RST4060["4060 RESET"]
+    DETOUT --> U02C["U02-C (NOR)"]
+    PORPULSE --> U02C
+    U02C --> U02D["U02-D<br/>NOR-as-inverter<br/>inputs tied"]
+    U02D --> RST4060["4060 RESET"]
 
     OSC["R_osc / C_osc<br/>TBD — sets ~10 min"] --> U4060["CD74HC4060<br/>osc + 14-stage counter"]
     VLOGIC --> U4060
@@ -332,9 +338,9 @@ flowchart TB
 
 ## Notes
 
-- `V_logic` (from the LDO) powers the entire U132 / U02 / 4060 group — individual power wires to each chip omitted from the diagram for legibility.
-- `4060 RESET` is asserted by either condition: actively playing (`det_out`, direct) or fresh power-up (`POR pulse`), combined through one spare NOR gate (`U02-D`) and one spare inverter (`U132-C`).
-- One gate is spare on each chip after the above — tie unused inputs to a defined rail per standard CMOS practice, don't leave floating.
+- `V_logic` (from the LDO) powers the entire U14 / U02 / 4060 group — individual power wires to each chip omitted from the diagram for legibility.
+- `4060 RESET` is asserted by either condition: actively playing (`det_out`) or fresh power-up (`POR pulse`), combined via `U02-C` (NOR) + `U02-D` (NOR-as-inverter) into a true OR.
+- 4 gates spare on the 74HC14 after the detector and POR shaper — tie unused inputs to a defined rail per standard CMOS practice, don't leave floating. 74HC02 is fully used (0 spare).
 - Switch open → `SW_OUT` doesn't exist → LDO has no input (watchdog fully unpowered, true storage-off) → `R_pd` holds EN at 0 V deterministically.
 - Switch closed → LDO powers the watchdog fresh, POR pulse clears the latch and resets the counter, `R_pu` pulls EN high (assuming latch hasn't fired).
 ## 7. Tuning guide
