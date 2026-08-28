@@ -1283,7 +1283,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPST"
+		(symbol "Transistor_FET:BSS138"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1293,27 +1293,54 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW1"
-				(at 0 6.35 0)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "SW_SPST"
-				(at 0 3.81 0)
+			(property "Value" "BSS138"
+				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1324,7 +1351,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "ki_keywords" "N-Channel MOSFET"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1335,7 +1362,7 @@
 					)
 				)
 			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1346,21 +1373,23 @@
 					)
 				)
 			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "BSS138_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1371,7 +1400,78 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
 					)
 					(stroke
 						(width 0)
@@ -1382,8 +1482,55 @@
 					)
 				)
 				(circle
-					(center 2.032 0)
-					(radius 0.508)
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1393,11 +1540,11 @@
 					)
 				)
 			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
+			(symbol "BSS138_1_1"
+				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "A"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1413,9 +1560,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "B"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1431,36 +1578,16 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(hide yes)
-					(name "MP"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1609,16 +1736,6 @@
 		)
 		(uuid "8f16ca98-5858-459f-ac3a-eef4c15de22d")
 	)
-	(text "TODO: Pick switch type (slide? panel/thru?)"
-		(exclude_from_sim no)
-		(at 253.746 87.884 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a8381c46-8c55-469e-bb43-849f9f1df312")
-	)
 	(text "Abracon ASMPH-1008-3R3M-T"
 		(exclude_from_sim no)
 		(at 187.96 75.692 0)
@@ -1698,6 +1815,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc4a868f-b1c4-486c-9fea-2a5c830d595d")
+	)
+	(junction
+		(at 109.22 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef98c7cf-c97e-4de5-acc5-a2a5b161f948")
 	)
 	(junction
 		(at 85.09 109.22)
@@ -1847,6 +1970,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 111.76) (xy 58.42 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba75a14-403d-4fcf-9d50-4d987699d687")
+	)
+	(wire
+		(pts
 			(xy 232.41 116.84) (xy 232.41 113.03)
 		)
 		(stroke
@@ -1937,6 +2070,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 111.76) (xy 46.99 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fcd5e2c-77bf-4559-b9ab-143829aae084")
+	)
+	(wire
+		(pts
 			(xy 101.6 125.73) (xy 101.6 130.81)
 		)
 		(stroke
@@ -1967,13 +2110,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 100.33) (xy 128.27 100.33)
+			(xy 109.22 72.39) (xy 109.22 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e2632e7-9be5-48f7-a822-8bec0ceb518c")
+		(uuid "5f4dd48d-44ff-4a4a-8bb2-b0fd081f036b")
 	)
 	(wire
 		(pts
@@ -2035,6 +2178,16 @@
 		)
 		(uuid "7f278d61-f9c9-435a-a6be-e1edaea45a15")
 	)
+	(wire
+		(pts
+			(xy 109.22 86.36) (xy 109.22 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8036735c-8767-47e1-b26f-991a3f921329")
+	)
 	(polyline
 		(pts
 			(xy 173.99 77.47) (xy 186.69 77.47)
@@ -2064,6 +2217,16 @@
 			(type default)
 		)
 		(uuid "92dcd000-343f-4ef3-bb64-3f831f38d2f2")
+	)
+	(wire
+		(pts
+			(xy 66.04 116.84) (xy 66.04 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a51155dc-116a-4ae0-bee1-a24fd3f77b3a")
 	)
 	(wire
 		(pts
@@ -2107,7 +2270,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 90.17) (xy 71.12 90.17)
+			(xy 63.5 90.17) (xy 71.12 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2154,6 +2317,16 @@
 			(type default)
 		)
 		(uuid "c270f80f-5b9d-4586-b466-f2ff9d3d2d46")
+	)
+	(wire
+		(pts
+			(xy 109.22 100.33) (xy 66.04 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9ac2ddf-d46a-4bac-b4b9-5e9e49d7e859")
 	)
 	(wire
 		(pts
@@ -2237,6 +2410,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 100.33) (xy 66.04 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed42db4e-08f5-4e4a-b532-59209972b7e4")
+	)
+	(wire
+		(pts
 			(xy 124.46 121.92) (xy 124.46 133.35)
 		)
 		(stroke
@@ -2304,6 +2487,16 @@
 			(type default)
 		)
 		(uuid "fe7fa962-59a8-4f2a-a0e6-fb5b0d0e092a")
+	)
+	(wire
+		(pts
+			(xy 109.22 100.33) (xy 128.27 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff9a46e3-dc0a-4cc3-a9b4-9dff9c233e2b")
 	)
 	(label "VCC"
 		(at 124.46 130.81 90)
@@ -2415,16 +2608,6 @@
 		)
 		(uuid "cc8a5d1b-6eea-4d0d-bec4-58db68519459")
 	)
-	(label "SW_OUT"
-		(at 257.81 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d4cf945b-7989-495a-a099-e094b8613d47")
-	)
 	(label "COMP_RC"
 		(at 177.8 133.35 0)
 		(effects
@@ -2448,7 +2631,7 @@
 	)
 	(hierarchical_label "V_{SYS}"
 		(shape input)
-		(at 66.04 90.17 180)
+		(at 63.5 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2457,9 +2640,9 @@
 		)
 		(uuid "880fe15d-099a-4357-a655-cc897b0bb324")
 	)
-	(hierarchical_label "BOOST_EN"
+	(hierarchical_label "SHUTDOWN"
 		(shape input)
-		(at 101.6 100.33 180)
+		(at 41.91 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3025,6 +3208,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 63.5 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3084a0e2-54b8-4a82-b91f-aaf27fdda599")
+		(property "Reference" "Q1"
+			(at 69.85 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 69.85 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 68.58 113.665 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 68.58 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 63.5 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7e3e235-e1df-4db9-aa25-d4131cc8b7c2")
+		)
+		(pin "2"
+			(uuid "c54067a4-982b-4e17-bb59-7f371984b054")
+		)
+		(pin "3"
+			(uuid "a33f83bb-f13c-4e2f-a3b2-5320ff6025c1")
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 177.8 147.32 0)
 		(unit 1)
@@ -3261,8 +3532,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 247.65 99.06 0)
+		(lib_id "Device:R_US")
+		(at 109.22 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3271,29 +3542,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6e4e577a-8810-40b9-b8a1-1e64c3aa62da")
-		(property "Reference" "SW1"
-			(at 247.65 92.71 0)
+		(uuid "8251ee2e-7370-452e-80a0-303487321a18")
+		(property "Reference" "R39"
+			(at 111.76 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_SPST"
-			(at 247.65 95.25 0)
+		(property "Value" "470K"
+			(at 111.76 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
-			(at 247.65 99.06 0)
+		(property "Footprint" ""
+			(at 110.236 82.804 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3304,7 +3577,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 99.06 0)
+			(at 109.22 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3314,8 +3587,8 @@
 				)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 247.65 99.06 0)
+		(property "Description" "Resistor, US symbol"
+			(at 109.22 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3324,23 +3597,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "c1976eee-e9c9-4b68-93de-c5fec332b4f0")
 		)
 		(pin "2"
-			(uuid "c321448a-f1c8-4ebb-b438-04f6405efb05")
+			(uuid "e44224d9-a8f3-4617-b207-6b93bede790e")
 		)
-		(pin "MP"
-			(uuid "ce4d1c5b-5000-4e0b-adda-50df5bf11273")
-		)
-		(pin "MP"
-			(uuid "1690b7da-c658-431b-8bb3-522007068024")
+		(pin "1"
+			(uuid "0db591a1-e9a8-4f5f-8930-e75d930827ef")
 		)
 		(instances
 			(project "headphone_amp"
 				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a"
-					(reference "SW1")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -3932,6 +4199,83 @@
 		)
 	)
 	(symbol
+		(lib_id "#power_symbols:VCC_LOCAL")
+		(at 109.22 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aa852733-eb36-46c8-a8d6-3633b7927aac")
+		(property "Reference" "#PWR065"
+			(at 109.22 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Vin"
+			(at 109.22 68.072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"+3.3V\""
+			(at 109.22 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b906a81-feb1-4897-8eb7-778e1ccd895e")
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 74.93 90.17 90)
 		(unit 1)
@@ -4329,6 +4673,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 50.8 111.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "da424f5b-0f6f-44a0-aa4a-6e0ba0fb8eab")
+		(property "Reference" "R40"
+			(at 45.466 110.744 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 55.372 110.744 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 51.054 110.744 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 50.8 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c26480ce-81b4-4043-92c8-b1ed007b9740")
+		)
+		(pin "1"
+			(uuid "76b73307-9db0-4b7e-8aad-06d32453ff82")
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 124.46 143.51 0)
 		(unit 1)
@@ -4646,6 +5069,83 @@
 			(project "headphone_amp"
 				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ff010128-15d1-4cd6-9c91-c11a40d61131")
+		(property "Reference" "#PWR066"
+			(at 66.04 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.294 127.762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "411a9d58-d0f0-4130-90b4-2dbb3b2c39cf")
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)

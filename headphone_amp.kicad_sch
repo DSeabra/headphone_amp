@@ -11,6 +11,36 @@
 		(comment 1 "${PCBA_IPN}")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 177.8 102.87) (xy 177.8 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77d42c5a-2b97-4567-b26d-c46799e17411")
+	)
+	(wire
+		(pts
+			(xy 177.8 57.15) (xy 186.69 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e69d34-c048-485a-a61e-aa11f1d886c8")
+	)
+	(wire
+		(pts
+			(xy 158.75 102.87) (xy 177.8 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6d8e195-d2e4-4ef1-a120-4ca61c47dd20")
+	)
 	(sheet
 		(at 83.82 35.56)
 		(size 22.86 7.62)
@@ -161,9 +191,9 @@
 				(justify right)
 			)
 		)
-		(pin "BOOST_EN" input
-			(at 186.69 54.61 180)
-			(uuid "386a734a-92e9-4d2e-87b5-4f75c1d5fd9c")
+		(pin "V_{SYS}" input
+			(at 186.69 45.72 180)
+			(uuid "d462db51-780d-4840-9953-3620b60f6e53")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -171,9 +201,9 @@
 				(justify left)
 			)
 		)
-		(pin "V_{SYS}" input
-			(at 186.69 45.72 180)
-			(uuid "d462db51-780d-4840-9953-3620b60f6e53")
+		(pin "SHUTDOWN" input
+			(at 186.69 57.15 180)
+			(uuid "44b52b2a-408e-4ab8-8112-11ab134a74ff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -303,6 +333,16 @@
 				(justify left top)
 			)
 		)
+		(pin "OUT" output
+			(at 158.75 53.34 0)
+			(uuid "f429f955-29dd-413a-be77-84327a14c36d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "headphone_amp"
 				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82"
@@ -393,6 +433,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "AUDIO_IN" input
+			(at 139.7 106.68 180)
+			(uuid "9849c812-2f53-436e-8894-722bdf135f0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SHUTDOWN" output
+			(at 158.75 102.87 0)
+			(uuid "29cae95b-c4eb-4b06-846b-5aea7760aa94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_{SYS}" input
+			(at 139.7 102.87 180)
+			(uuid "c52bb57f-8bd2-40fc-a51f-e2e8ac0f1185")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
