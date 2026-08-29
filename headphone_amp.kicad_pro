@@ -703,17 +703,13 @@
         "uuid": "62ffec33-ae93-49a8-bfe6-566578dd8e82"
       }
     ],
-    "used_designators": "C34-35,R49-52,#PWR89-90",
+    "used_designators": "J9,R53,#PWR91,FB3",
     "variants": []
   },
   "sheets": [
     [
       "62ffec33-ae93-49a8-bfe6-566578dd8e82",
       "Root"
-    ],
-    [
-      "88a6fbe6-41b3-454b-9d65-28a89e2e6ca4",
-      "Battery Charger"
     ],
     [
       "14462d11-f69f-4768-a94b-e7cc4b589cf9",
@@ -724,6 +720,18 @@
       "Battery"
     ],
     [
+      "88a6fbe6-41b3-454b-9d65-28a89e2e6ca4",
+      "Battery Charger"
+    ],
+    [
+      "339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a",
+      "Boost"
+    ],
+    [
+      "30c47c1f-896c-4e79-b6a9-de917104acdf",
+      "Rail Splitter"
+    ],
+    [
       "fdaed4ad-6382-4025-bc3e-39eb3bc4a0fb",
       "Audio Input"
     ],
@@ -732,16 +740,8 @@
       "Current Buffer"
     ],
     [
-      "339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a",
-      "Boost"
-    ],
-    [
       "9e81eff7-fa8a-4d9c-b865-cbf1c6348e7c",
       "Watchdog"
-    ],
-    [
-      "30c47c1f-896c-4e79-b6a9-de917104acdf",
-      "Rail Splitter"
     ]
   ],
   "text_variables": {
