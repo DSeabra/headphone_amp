@@ -561,7 +561,7 @@
 		)
 		(uuid "7d929cad-63b0-4a3e-94dd-7f44db747e4b")
 	)
-	(label "AUDIO_IN"
+	(label "WD_AUDIO_IN"
 		(at 110.49 121.92 0)
 		(effects
 			(font
@@ -1315,7 +1315,7 @@
 		(instances
 			(project "headphone_amp"
 				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82"
-					(page "1")
+					(page "9")
 				)
 			)
 		)

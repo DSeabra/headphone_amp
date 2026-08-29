@@ -2201,16 +2201,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 111.76) (xy 58.42 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ba75a14-403d-4fcf-9d50-4d987699d687")
-	)
-	(wire
-		(pts
 			(xy 232.41 116.84) (xy 232.41 113.03)
 		)
 		(stroke
@@ -2301,7 +2291,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 111.76) (xy 46.99 111.76)
+			(xy 41.91 111.76) (xy 58.42 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5090,85 +5080,6 @@
 			(project "headphone_amp"
 				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 50.8 111.76 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "da424f5b-0f6f-44a0-aa4a-6e0ba0fb8eab")
-		(property "Reference" "R40"
-			(at 45.466 110.744 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 55.372 110.744 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 51.054 110.744 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 50.8 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c26480ce-81b4-4043-92c8-b1ed007b9740")
-		)
-		(pin "1"
-			(uuid "76b73307-9db0-4b7e-8aad-06d32453ff82")
-		)
-		(instances
-			(project "headphone_amp"
-				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a"
-					(reference "R40")
 					(unit 1)
 				)
 			)

@@ -712,10 +712,6 @@
       "Root"
     ],
     [
-      "14462d11-f69f-4768-a94b-e7cc4b589cf9",
-      "Power Input"
-    ],
-    [
       "74a7e50f-a1a3-4295-a28c-ad733432c5cd",
       "Battery"
     ],
@@ -742,6 +738,10 @@
     [
       "9e81eff7-fa8a-4d9c-b865-cbf1c6348e7c",
       "Watchdog"
+    ],
+    [
+      "14462d11-f69f-4768-a94b-e7cc4b589cf9",
+      "Power Input"
     ]
   ],
   "text_variables": {
