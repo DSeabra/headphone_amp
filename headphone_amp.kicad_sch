@@ -10,10 +10,280 @@
 		(rev "${REVISION}")
 		(comment 1 "${PCBA_IPN}")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "#power_symbols:VCC_LOCAL"
+			(power local)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR05"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "V_{CC}"
+				(at 0 4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a local label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_LOCAL_0_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_LOCAL_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 99.06 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e4706db-c6db-4f8b-acf6-1483769918e2")
+	)
+	(junction
+		(at 104.14 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77375b9f-86e8-4d7d-acae-2c1f5715671d")
+	)
+	(junction
+		(at 207.01 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8918fd6a-2d01-4af5-b29a-e0f0c0044480")
+	)
+	(junction
+		(at 154.94 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4242120-6b30-4fd9-9f3e-2a01ba67754c")
+	)
+	(junction
+		(at 154.94 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffcdea98-cce0-4882-944c-046e9451ce09")
+	)
 	(wire
 		(pts
-			(xy 177.8 102.87) (xy 177.8 57.15)
+			(xy 237.49 66.04) (xy 246.38 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0754f8d7-eb2a-4041-8e39-8c0adbb6a9a9")
+	)
+	(wire
+		(pts
+			(xy 179.07 129.54) (xy 179.07 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e891736-3fff-45fa-89c0-b92c37022d52")
+	)
+	(wire
+		(pts
+			(xy 95.25 129.54) (xy 95.25 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3820f9e3-b12c-4c7a-81b2-7d5d503499e3")
+	)
+	(wire
+		(pts
+			(xy 196.85 66.04) (xy 207.01 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4455601e-9a65-48af-adb0-a8688afaaad3")
+	)
+	(wire
+		(pts
+			(xy 104.14 50.8) (xy 104.14 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4891827b-c8d9-4a0d-a6d0-bad2179b0472")
+	)
+	(wire
+		(pts
+			(xy 154.94 60.96) (xy 172.72 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "523a3d50-4219-4833-993d-97f2bac26fce")
+	)
+	(wire
+		(pts
+			(xy 92.71 73.66) (xy 99.06 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62bfc6a2-afb1-4581-8a60-4f7ca3fe6007")
+	)
+	(wire
+		(pts
+			(xy 92.71 81.28) (xy 114.3 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ebfab4-149d-4a2d-a830-b04e9bd83ed6")
+	)
+	(wire
+		(pts
+			(xy 154.94 54.61) (xy 154.94 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed2f0ca-6232-44b9-8a78-2f928fdf7cc5")
+	)
+	(wire
+		(pts
+			(xy 104.14 62.23) (xy 104.14 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73fa1338-ee53-45f8-8e7d-6b5e3ffffab8")
+	)
+	(wire
+		(pts
+			(xy 163.83 118.11) (xy 163.83 72.39)
 		)
 		(stroke
 			(width 0)
@@ -23,7 +293,27 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 57.15) (xy 186.69 57.15)
+			(xy 114.3 62.23) (xy 104.14 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b2a1416-bd08-4bb5-a4c0-a8d0b81696c7")
+	)
+	(wire
+		(pts
+			(xy 207.01 60.96) (xy 207.01 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90474cbd-f6c7-4322-b59a-a01532b36e78")
+	)
+	(wire
+		(pts
+			(xy 163.83 72.39) (xy 172.72 72.39)
 		)
 		(stroke
 			(width 0)
@@ -33,7 +323,67 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 102.87) (xy 177.8 102.87)
+			(xy 144.78 68.58) (xy 154.94 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97046fe2-79b8-4b20-b6f2-90e8d6a73d1e")
+	)
+	(wire
+		(pts
+			(xy 102.87 147.32) (xy 109.22 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98a81b42-5aeb-4c85-ad8d-7279827df22a")
+	)
+	(wire
+		(pts
+			(xy 104.14 54.61) (xy 92.71 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98e0e128-04bd-4ba6-8f99-b409d9ccbcfc")
+	)
+	(wire
+		(pts
+			(xy 120.65 118.11) (xy 120.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a012282c-73df-4255-8cb8-b4172862f01a")
+	)
+	(wire
+		(pts
+			(xy 207.01 66.04) (xy 217.17 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a530b9dc-7389-404c-af29-22018ccb4344")
+	)
+	(wire
+		(pts
+			(xy 120.65 95.25) (xy 154.94 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b10f7511-edc0-4aab-8f9b-15b9618c841b")
+	)
+	(wire
+		(pts
+			(xy 144.78 118.11) (xy 163.83 118.11)
 		)
 		(stroke
 			(width 0)
@@ -41,8 +391,881 @@
 		)
 		(uuid "b6d8e195-d2e4-4ef1-a120-4ca61c47dd20")
 	)
+	(wire
+		(pts
+			(xy 102.87 149.86) (xy 154.94 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf1abb0c-57e1-4763-987f-f754ddbc030a")
+	)
+	(wire
+		(pts
+			(xy 154.94 68.58) (xy 154.94 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf978937-b5e7-43fb-aea5-71219386e758")
+	)
+	(wire
+		(pts
+			(xy 246.38 60.96) (xy 246.38 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c45f24eb-b774-49f3-b0f7-cc1e08f62579")
+	)
+	(wire
+		(pts
+			(xy 109.22 121.92) (xy 125.73 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5e91b04-81d3-45d9-aa5b-733271b89d02")
+	)
+	(wire
+		(pts
+			(xy 99.06 68.58) (xy 99.06 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4c959d4-c09b-4de6-8dcd-758b772b7680")
+	)
+	(wire
+		(pts
+			(xy 109.22 147.32) (xy 109.22 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d50b712f-8a86-47f1-ad07-d63adae5437a")
+	)
+	(wire
+		(pts
+			(xy 125.73 118.11) (xy 120.65 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da3fb96f-8840-4928-bd1e-a3f5f2432ec0")
+	)
+	(wire
+		(pts
+			(xy 86.36 129.54) (xy 86.36 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e87760e4-d414-4a89-8b96-0a7800f62b0c")
+	)
+	(wire
+		(pts
+			(xy 92.71 78.74) (xy 114.3 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb4c7a5d-ce38-460b-80dd-d7418b9e4932")
+	)
+	(wire
+		(pts
+			(xy 172.72 129.54) (xy 172.72 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d21fa3-bc45-477b-a791-39a35c7aebf5")
+	)
+	(wire
+		(pts
+			(xy 99.06 73.66) (xy 114.3 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8a55d48-83ec-4192-b259-ff05929fef4a")
+	)
+	(wire
+		(pts
+			(xy 154.94 95.25) (xy 154.94 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc1c85f-aabd-46cd-aa22-b6c3600cb08f")
+	)
+	(label "TS+"
+		(at 99.06 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "081b9958-7b83-4c98-ac02-e43b4d59dffd")
+	)
+	(label "SHUTDOWN"
+		(at 149.86 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f48d8ee-421b-42c3-8243-f9ba81d91f16")
+	)
+	(label "V_{SYS}"
+		(at 160.02 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f726316-2208-4d80-a6a1-ed7d2da00fda")
+	)
+	(label "TS-"
+		(at 99.06 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b21a247-c649-4d2d-ae5a-bf8dcbb3febe")
+	)
+	(label "AUDIO_BUFFER_IN"
+		(at 116.84 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d929cad-63b0-4a3e-94dd-7f44db747e4b")
+	)
+	(label "AUDIO_IN"
+		(at 110.49 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c487e267-3248-4ce6-8e4f-88b7b5739bb1")
+	)
+	(symbol
+		(lib_id "#power_symbols:VCC_LOCAL")
+		(at 207.01 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17695897-66be-4958-8e61-0591ec5ade97")
+		(property "Reference" "#PWR067"
+			(at 207.01 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V+"
+			(at 207.01 56.642 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"+3.3V\""
+			(at 207.01 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "105c317b-03d2-4351-8bd5-1f9dd6f7dfa8")
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#power_symbols:VCC_LOCAL")
+		(at 86.36 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e5d32f7-f6fa-4d05-9a9c-fff6e1a0ca05")
+		(property "Reference" "#PWR071"
+			(at 86.36 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V+"
+			(at 86.36 125.222 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"+3.3V\""
+			(at 86.36 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2828f845-1d30-40f3-9fe4-d3c450856e94")
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#power_symbols:VCC_LOCAL")
+		(at 179.07 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "21f87c1c-f9bf-40c4-9895-86c103ab2faa")
+		(property "Reference" "#PWR085"
+			(at 179.07 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V_{MID}"
+			(at 179.07 125.222 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"+3.3V\""
+			(at 179.07 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74c281aa-9b12-4153-8436-421c0d22c406")
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#power_symbols:VCC_LOCAL")
+		(at 99.06 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "55309fe2-40ed-42fd-bab9-842049f941c0")
+		(property "Reference" "#PWR083"
+			(at 99.06 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V_{BAT}"
+			(at 99.06 64.262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"+3.3V\""
+			(at 99.06 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9049e31f-fafb-4e4a-81ba-dad0f61284af")
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#power_symbols:VCC_LOCAL")
+		(at 104.14 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6368ce88-65de-47df-8345-3132d834cc3b")
+		(property "Reference" "#PWR082"
+			(at 104.14 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V_{BUS}"
+			(at 104.14 46.482 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"+3.3V\""
+			(at 104.14 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d99ab6e7-7d73-454a-b0c8-d8c128736524")
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#power_symbols:VCC_LOCAL")
+		(at 95.25 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "70bb4c5d-bfdb-4159-8fd2-296ffdf9d1b6")
+		(property "Reference" "#PWR070"
+			(at 95.25 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V_{MID}"
+			(at 95.25 125.222 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"+3.3V\""
+			(at 95.25 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e03ed39-bf96-4508-b005-b64432828391")
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#power_symbols:VCC_LOCAL")
+		(at 154.94 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a4d10deb-bfa8-4689-9aa8-16e49e650f98")
+		(property "Reference" "#PWR069"
+			(at 154.94 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V_{SYS}"
+			(at 154.94 50.292 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"+3.3V\""
+			(at 154.94 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "015c4a6f-27d1-4609-97a5-96c4eaa6a743")
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#power_symbols:VCC_LOCAL")
+		(at 246.38 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d318f1ae-c4a2-4775-8cf1-17f6a07400bd")
+		(property "Reference" "#PWR068"
+			(at 246.38 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V_{MID}"
+			(at 246.38 56.642 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"+3.3V\""
+			(at 246.38 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5decd938-f944-4834-8697-e622f7d65f01")
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#power_symbols:VCC_LOCAL")
+		(at 172.72 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e7108af4-57e1-4ed8-80f7-68a621d247d1")
+		(property "Reference" "#PWR084"
+			(at 172.72 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V+"
+			(at 172.72 125.222 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"+3.3V\""
+			(at 172.72 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97241d0c-8c3a-4279-a521-a32d50696cf4")
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 83.82 35.56)
+		(at 69.85 50.8)
 		(size 22.86 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -58,7 +1281,7 @@
 		)
 		(uuid "14462d11-f69f-4768-a94b-e7cc4b589cf9")
 		(property "Sheetname" "Power Input"
-			(at 83.82 34.8484 0)
+			(at 69.85 50.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -69,7 +1292,7 @@
 			)
 		)
 		(property "Sheetfile" "power_input.kicad_sch"
-			(at 83.82 43.7646 0)
+			(at 69.85 59.0046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -80,7 +1303,7 @@
 			)
 		)
 		(pin "VBUS" output
-			(at 106.68 39.37 0)
+			(at 92.71 54.61 0)
 			(uuid "b6d85172-1a2f-4f87-948e-4558d0184543")
 			(effects
 				(font
@@ -98,7 +1321,7 @@
 		)
 	)
 	(sheet
-		(at 231.14 43.18)
+		(at 217.17 58.42)
 		(size 20.32 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -114,7 +1337,7 @@
 		)
 		(uuid "30c47c1f-896c-4e79-b6a9-de917104acdf")
 		(property "Sheetname" "Rail Splitter"
-			(at 231.14 42.4684 0)
+			(at 217.17 57.7084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +1348,7 @@
 			)
 		)
 		(property "Sheetfile" "rail_splitter.kicad_sch"
-			(at 231.14 60.2746 0)
+			(at 217.17 75.5146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -133,6 +1356,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "V_{IN}" input
+			(at 217.17 66.04 180)
+			(uuid "ed5fe864-9106-4f77-9cec-c03180b1a0d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_{MID}" output
+			(at 237.49 66.04 0)
+			(uuid "5e64a851-af63-40ee-9df4-1eea083b8e24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -144,7 +1387,7 @@
 		)
 	)
 	(sheet
-		(at 186.69 39.37)
+		(at 172.72 54.61)
 		(size 24.13 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -160,7 +1403,7 @@
 		)
 		(uuid "339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a")
 		(property "Sheetname" "Boost"
-			(at 186.69 38.6584 0)
+			(at 172.72 53.8984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -171,7 +1414,7 @@
 			)
 		)
 		(property "Sheetfile" "boost.kicad_sch"
-			(at 186.69 64.0846 0)
+			(at 172.72 79.3246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -182,7 +1425,7 @@
 			)
 		)
 		(pin "V_{OUT}" output
-			(at 210.82 50.8 0)
+			(at 196.85 66.04 0)
 			(uuid "b8424900-6b17-4075-af5b-11cac805ec1b")
 			(effects
 				(font
@@ -192,7 +1435,7 @@
 			)
 		)
 		(pin "V_{SYS}" input
-			(at 186.69 45.72 180)
+			(at 172.72 60.96 180)
 			(uuid "d462db51-780d-4840-9953-3620b60f6e53")
 			(effects
 				(font
@@ -202,7 +1445,7 @@
 			)
 		)
 		(pin "SHUTDOWN" input
-			(at 186.69 57.15 180)
+			(at 172.72 72.39 180)
 			(uuid "44b52b2a-408e-4ab8-8112-11ab134a74ff")
 			(effects
 				(font
@@ -220,7 +1463,7 @@
 		)
 	)
 	(sheet
-		(at 83.82 54.61)
+		(at 69.85 69.85)
 		(size 22.86 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -236,7 +1479,7 @@
 		)
 		(uuid "74a7e50f-a1a3-4295-a28c-ad733432c5cd")
 		(property "Sheetname" "Battery"
-			(at 83.82 53.8984 0)
+			(at 69.85 69.1384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -247,7 +1490,7 @@
 			)
 		)
 		(property "Sheetfile" "battery.kicad_sch"
-			(at 83.82 69.1646 0)
+			(at 69.85 84.4046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -258,7 +1501,7 @@
 			)
 		)
 		(pin "BAT_THERMISTOR+" output
-			(at 106.68 63.5 0)
+			(at 92.71 78.74 0)
 			(uuid "efe47ef5-d6e8-4c6d-a0b6-f6d33a23f7b5")
 			(effects
 				(font
@@ -268,7 +1511,7 @@
 			)
 		)
 		(pin "BAT_THERMISTOR-" output
-			(at 106.68 66.04 0)
+			(at 92.71 81.28 0)
 			(uuid "0d69481d-3265-44ec-91dc-e6471ab9d136")
 			(effects
 				(font
@@ -278,7 +1521,7 @@
 			)
 		)
 		(pin "V_{BAT}" output
-			(at 106.68 58.42 0)
+			(at 92.71 73.66 0)
 			(uuid "9ccf7179-c43f-47eb-8e7d-a88f4648ff0e")
 			(effects
 				(font
@@ -296,8 +1539,8 @@
 		)
 	)
 	(sheet
-		(at 128.27 43.18)
-		(size 30.48 20.32)
+		(at 114.3 58.42)
+		(size 30.48 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -312,7 +1555,7 @@
 		)
 		(uuid "88a6fbe6-41b3-454b-9d65-28a89e2e6ca4")
 		(property "Sheetname" "Battery Charger"
-			(at 128.27 42.4684 0)
+			(at 114.3 57.7084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -323,7 +1566,7 @@
 			)
 		)
 		(property "Sheetfile" "charger.kicad_sch"
-			(at 128.27 64.0846 0)
+			(at 114.3 85.6746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -333,9 +1576,49 @@
 				(justify left top)
 			)
 		)
-		(pin "OUT" output
-			(at 158.75 53.34 0)
-			(uuid "f429f955-29dd-413a-be77-84327a14c36d")
+		(pin "BAT" input
+			(at 114.3 73.66 180)
+			(uuid "dcff0034-78ba-447f-a8db-9502398bbc2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN" input
+			(at 114.3 62.23 180)
+			(uuid "adfe5845-45f6-4239-8e2b-2cb341aeb266")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TS+" input
+			(at 114.3 78.74 180)
+			(uuid "42797984-fa97-47e3-b532-a8f7ca08dd06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TS-" input
+			(at 114.3 81.28 180)
+			(uuid "fc492f0f-a819-4049-bd2e-bf5dce4f5d24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_{SYS}" output
+			(at 144.78 68.58 0)
+			(uuid "ee5d3717-fdcf-447f-98e1-8d44a216e836")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -352,8 +1635,8 @@
 		)
 	)
 	(sheet
-		(at 168.91 127)
-		(size 12.7 10.16)
+		(at 154.94 139.7)
+		(size 30.48 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -368,7 +1651,7 @@
 		)
 		(uuid "8fba3b35-d615-47af-8081-02211a3ffbd2")
 		(property "Sheetname" "Current Buffer"
-			(at 168.91 126.2884 0)
+			(at 154.94 138.9884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -379,7 +1662,7 @@
 			)
 		)
 		(property "Sheetfile" "buffer.kicad_sch"
-			(at 168.91 137.7446 0)
+			(at 154.94 155.5246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -387,6 +1670,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "AUDIO_IN" input
+			(at 154.94 149.86 180)
+			(uuid "dbcef16d-a28e-4ee8-a9bb-43ad4f5031a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V+" input
+			(at 172.72 139.7 90)
+			(uuid "2cd78e4e-7c67-4412-94da-32193e9013a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_{MID}" input
+			(at 179.07 139.7 90)
+			(uuid "0f8cb971-fa38-47ff-b908-c79b0a1b0291")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -398,7 +1711,7 @@
 		)
 	)
 	(sheet
-		(at 139.7 100.33)
+		(at 125.73 115.57)
 		(size 19.05 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -414,7 +1727,7 @@
 		)
 		(uuid "9e81eff7-fa8a-4d9c-b865-cbf1c6348e7c")
 		(property "Sheetname" "Watchdog"
-			(at 139.7 99.6184 0)
+			(at 125.73 114.8584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -425,7 +1738,7 @@
 			)
 		)
 		(property "Sheetfile" "watchdog.kicad_sch"
-			(at 139.7 113.6146 0)
+			(at 125.73 128.8546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -436,7 +1749,7 @@
 			)
 		)
 		(pin "AUDIO_IN" input
-			(at 139.7 106.68 180)
+			(at 125.73 121.92 180)
 			(uuid "9849c812-2f53-436e-8894-722bdf135f0a")
 			(effects
 				(font
@@ -446,7 +1759,7 @@
 			)
 		)
 		(pin "SHUTDOWN" output
-			(at 158.75 102.87 0)
+			(at 144.78 118.11 0)
 			(uuid "29cae95b-c4eb-4b06-846b-5aea7760aa94")
 			(effects
 				(font
@@ -456,7 +1769,7 @@
 			)
 		)
 		(pin "V_{SYS}" input
-			(at 139.7 102.87 180)
+			(at 125.73 118.11 180)
 			(uuid "c52bb57f-8bd2-40fc-a51f-e2e8ac0f1185")
 			(effects
 				(font
@@ -474,8 +1787,8 @@
 		)
 	)
 	(sheet
-		(at 109.22 124.46)
-		(size 17.78 11.43)
+		(at 72.39 139.7)
+		(size 30.48 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -490,7 +1803,7 @@
 		)
 		(uuid "fdaed4ad-6382-4025-bc3e-39eb3bc4a0fb")
 		(property "Sheetname" "Audio Input"
-			(at 109.22 123.7484 0)
+			(at 72.39 138.9884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -501,7 +1814,7 @@
 			)
 		)
 		(property "Sheetfile" "audio_in.kicad_sch"
-			(at 109.22 136.4746 0)
+			(at 72.39 163.1446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -509,6 +1822,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "OUT" output
+			(at 102.87 149.86 0)
+			(uuid "5d28e5ec-bf43-4798-b32d-eb9d39be3c65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_{+}" input
+			(at 86.36 139.7 90)
+			(uuid "b3208319-319c-44dd-901f-e5f3ec38bb58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_{MID}" input
+			(at 95.25 139.7 90)
+			(uuid "4b9a3c2d-9930-4433-894a-f5090e3b92d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WD_AUDIO_OUT" output
+			(at 102.87 147.32 0)
+			(uuid "7ceb56b0-286e-4fdf-8197-569200e2154c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

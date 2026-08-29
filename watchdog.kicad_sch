@@ -3507,7 +3507,7 @@
 		(at 154.94 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ae70b570-2a68-426b-8a9b-c94875901707")
+		(uuid "b1cb33d2-d734-48e7-8b6d-4a296f8f60b9")
 	)
 	(junction
 		(at 191.77 29.21)
@@ -3901,7 +3901,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 134.62) (xy 181.61 134.62)
+			(xy 154.94 134.62) (xy 185.42 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4361,6 +4361,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 134.62) (xy 204.47 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d30583f0-51f8-4fb0-bcb4-77dbfcaf4db1")
+	)
+	(wire
+		(pts
 			(xy 166.37 43.18) (xy 166.37 45.72)
 		)
 		(stroke
@@ -4740,7 +4750,7 @@
 		(uuid "ebf1c51c-e8fb-4992-a0bb-a476b313bcb9")
 	)
 	(label "SHUTDOWN_LATCHED"
-		(at 176.53 134.62 180)
+		(at 179.07 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4762,7 +4772,7 @@
 	)
 	(hierarchical_label "SHUTDOWN"
 		(shape output)
-		(at 181.61 134.62 0)
+		(at 204.47 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5702,6 +5712,86 @@
 				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/9e81eff7-fa8a-4d9c-b865-cbf1c6348e7c"
 					(reference "U8")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 189.23 134.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e60da46-d40d-49e5-8556-5ae7ee246b76")
+		(property "Reference" "R47"
+			(at 189.23 128.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 189.23 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 188.976 135.636 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 189.23 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "41d2e2cb-ef31-4454-9718-8993ffadd778")
+		)
+		(pin "1"
+			(uuid "f2a94a0a-e908-4df0-ac86-b60e46a1bba1")
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/9e81eff7-fa8a-4d9c-b865-cbf1c6348e7c"
+					(reference "R47")
+					(unit 1)
 				)
 			)
 		)

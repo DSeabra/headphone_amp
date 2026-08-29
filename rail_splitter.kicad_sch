@@ -638,7 +638,7 @@
 		)
 		(uuid "5b5d893f-412c-46fb-a874-97d1b27ad584")
 	)
-	(hierarchical_label "V_{OUT}"
+	(hierarchical_label "V_{MID}"
 		(shape output)
 		(at 179.07 90.17 0)
 		(effects
