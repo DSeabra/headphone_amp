@@ -4161,6 +4161,571 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "inventree_kicad:C_3900P_NP0_50V_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "3.9nF"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "3900 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "InvenTree" "30"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part URL" "http://10.0.0.33/web/part/30/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "IPN" "301-0011"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_3900P_NP0_50V_0603_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_3900P_NP0_50V_0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "inventree_kicad:C_470P_NP0_50V_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "470pF"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "470 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "InvenTree" "14"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part URL" "http://10.0.0.33/web/part/14/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "IPN" "301-0002"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Capacitor_SMD:C_0402_1005Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_470P_NP0_50V_0402_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_470P_NP0_50V_0402_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "inventree_kicad:R_10K_0402_1PCT_0W0625"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10K"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 1.016 -0.254 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "InvenTree" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part URL" "http://10.0.0.33/web/part/1/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "IPN" "302-0001"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_10K_0402_1PCT_0W0625_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_10K_0402_1PCT_0W0625_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -4287,6 +4852,16 @@
 		)
 		(uuid "611740b9-c457-4d06-9458-c214cef20589")
 	)
+	(text "Volume pot"
+		(exclude_from_sim no)
+		(at 266.7 137.414 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "82f9c68a-b17b-439a-b666-6f4ba354457f")
+	)
 	(text "AC-Coupling Cap: Choose Film!"
 		(exclude_from_sim no)
 		(at 92.964 83.82 0)
@@ -4317,9 +4892,20 @@
 		)
 		(uuid "aa61e66a-0596-47b7-9d7a-03d40f1f2fde")
 	)
+	(text "U2, in conjuction with R18 and C36, create a second-order\nLPF at ~4kHz for a \"cab filter\" effect (removes harsh\nhigh-frequency \"fizz\")"
+		(exclude_from_sim no)
+		(at 180.34 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7eb3639-b8b6-48f2-b343-d8170df27b73")
+	)
 	(text "Av = -R14 / R15\n=> Av = -100K / 33K = -3.03x"
 		(exclude_from_sim no)
-		(at 197.866 122.174 0)
+		(at 221.488 108.458 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4327,16 +4913,6 @@
 			(justify left)
 		)
 		(uuid "b93fceb5-3d62-4e0f-9c45-f9686f581d0a")
-	)
-	(text "Volume pot"
-		(exclude_from_sim no)
-		(at 265.43 113.284 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c69b911f-8ee1-4091-926f-634b8ef4ab5a")
 	)
 	(text "1N4148W-7-F"
 		(exclude_from_sim no)
@@ -4402,12 +4978,6 @@
 		(uuid "28364fe5-362c-4e6a-b968-4d82c0ad21b9")
 	)
 	(junction
-		(at 53.34 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2aab32b6-2b22-439b-b4ff-1086a32533a3")
-	)
-	(junction
 		(at 116.84 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4438,10 +5008,22 @@
 		(uuid "66b87d32-15d8-450a-ad69-8c1a9ef44c4e")
 	)
 	(junction
+		(at 252.73 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a9e41e4-7727-43ea-ba14-849d46fbf1c4")
+	)
+	(junction
 		(at 238.76 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7168becc-bd4a-43a8-9890-d914e674b0b4")
+	)
+	(junction
+		(at 53.34 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "797edd16-3cbf-469b-907f-3c83653cbab7")
 	)
 	(junction
 		(at 212.09 97.79)
@@ -4462,16 +5044,22 @@
 		(uuid "8f1d5b49-bd47-4476-b88a-cf05eb503bc9")
 	)
 	(junction
+		(at 217.17 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "913b84f5-588f-42b2-b011-ce3c970954dd")
+	)
+	(junction
+		(at 260.35 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "964c3abf-4e4c-4ef7-b824-e5a840184127")
+	)
+	(junction
 		(at 148.59 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4dd13b1-4b32-4a9e-8697-504f78d68085")
-	)
-	(junction
-		(at 257.81 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6b6eea8-0e70-45c7-9853-b18fa4f2a408")
 	)
 	(junction
 		(at 116.84 128.27)
@@ -4503,12 +5091,6 @@
 		(color 0 0 0 0)
 		(uuid "f20cf7fa-ea1d-4e0f-b4be-c7df24e1c066")
 	)
-	(junction
-		(at 251.46 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4465201-8a4b-4197-b9c0-5f1124d897cb")
-	)
 	(wire
 		(pts
 			(xy 64.77 95.25) (xy 80.01 95.25)
@@ -4538,6 +5120,26 @@
 			(type default)
 		)
 		(uuid "04107d6c-150f-49a4-91ab-2d9712da46f9")
+	)
+	(wire
+		(pts
+			(xy 241.3 153.67) (xy 252.73 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "041547ad-e1dc-4c88-85db-5b5428d7392a")
+	)
+	(wire
+		(pts
+			(xy 217.17 148.59) (xy 217.17 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047fb550-c33f-4b94-bd0e-32ce5c0ea12e")
 	)
 	(wire
 		(pts
@@ -4588,6 +5190,26 @@
 			(type default)
 		)
 		(uuid "0e2e69b1-eed3-4003-975c-4880c5a28f26")
+	)
+	(wire
+		(pts
+			(xy 217.17 130.81) (xy 217.17 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0facd936-eb4f-4fbe-ba9a-5fa69b27443f")
+	)
+	(wire
+		(pts
+			(xy 259.08 146.05) (xy 257.81 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10a7541a-05c4-4a5d-9431-fecc32f4cd27")
 	)
 	(wire
 		(pts
@@ -4721,16 +5343,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 116.84) (xy 257.81 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "283910a9-6b3b-49ca-9cd1-4dd0991ebb33")
-	)
-	(wire
-		(pts
 			(xy 138.43 163.83) (xy 139.7 163.83)
 		)
 		(stroke
@@ -4801,16 +5413,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 129.54) (xy 251.46 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3392600d-b046-4344-bab9-feb6f1d06f2b")
-	)
-	(wire
-		(pts
 			(xy 166.37 97.79) (xy 193.04 97.79)
 		)
 		(stroke
@@ -4818,16 +5420,6 @@
 			(type default)
 		)
 		(uuid "361210a4-529e-4585-92f5-3e505b06ed2e")
-	)
-	(wire
-		(pts
-			(xy 251.46 109.22) (xy 240.03 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "368a8e0f-ea45-4007-90b0-b745b6eaded8")
 	)
 	(wire
 		(pts
@@ -4881,26 +5473,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 109.22) (xy 240.03 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e57e616-eed5-46d7-8e17-570a81b4191a")
-	)
-	(wire
-		(pts
-			(xy 257.81 128.27) (xy 278.13 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4012c154-d9b6-492a-8691-045e69ade510")
-	)
-	(wire
-		(pts
 			(xy 200.66 97.79) (xy 212.09 97.79)
 		)
 		(stroke
@@ -4911,6 +5483,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 151.13) (xy 252.73 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41e4cd7f-98a2-4607-95fe-c0eae0464150")
+	)
+	(wire
+		(pts
 			(xy 148.59 113.03) (xy 148.59 128.27)
 		)
 		(stroke
@@ -4918,6 +5500,16 @@
 			(type default)
 		)
 		(uuid "421120fe-40b2-4c63-9f1f-18daa217d16c")
+	)
+	(wire
+		(pts
+			(xy 26.67 44.45) (xy 38.1 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46c585e6-91ee-4370-a84d-4c350de1234a")
 	)
 	(wire
 		(pts
@@ -4991,16 +5583,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 44.45) (xy 34.29 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55312391-9fca-49a1-80ab-8e663c459482")
-	)
-	(wire
-		(pts
 			(xy 212.09 85.09) (xy 212.09 71.12)
 		)
 		(stroke
@@ -5031,7 +5613,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 44.45) (xy 53.34 44.45)
+			(xy 45.72 44.45) (xy 53.34 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5048,6 +5630,16 @@
 			(type default)
 		)
 		(uuid "599e50de-fea9-4532-8a36-ce292083d29c")
+	)
+	(wire
+		(pts
+			(xy 260.35 100.33) (xy 266.7 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bbd7f74-5bdc-420e-abb9-cc8c7ea5943f")
 	)
 	(wire
 		(pts
@@ -5081,6 +5673,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 153.67) (xy 252.73 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f4fa9bc-1733-4150-a7c1-aee186fe400a")
+	)
+	(wire
+		(pts
 			(xy 148.59 128.27) (xy 148.59 132.08)
 		)
 		(stroke
@@ -5088,16 +5690,6 @@
 			(type default)
 		)
 		(uuid "609b6733-f509-439e-baed-e45d30ee2b31")
-	)
-	(wire
-		(pts
-			(xy 257.81 121.92) (xy 257.81 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6362ee3a-ac65-481e-9488-58bfa4ed6cd2")
 	)
 	(wire
 		(pts
@@ -5111,13 +5703,13 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 121.92) (xy 256.54 121.92)
+			(xy 241.3 134.62) (xy 241.3 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67507a7c-4c95-4cd2-9f81-92af08c8d2b7")
+		(uuid "67e52a1f-632f-4563-8ab2-df9d2589b605")
 	)
 	(wire
 		(pts
@@ -5141,6 +5733,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 152.4) (xy 279.4 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c476704-49cc-4f3e-96d7-d2e1c718d07c")
+	)
+	(wire
+		(pts
 			(xy 209.55 114.3) (xy 212.09 114.3)
 		)
 		(stroke
@@ -5158,6 +5760,16 @@
 			(type default)
 		)
 		(uuid "6ef19f20-9fd4-43eb-949b-4e27cdc7dd69")
+	)
+	(wire
+		(pts
+			(xy 252.73 134.62) (xy 241.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f4ed639-a428-42cb-b3e6-59da744937b4")
 	)
 	(wire
 		(pts
@@ -5201,6 +5813,36 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 130.81) (xy 184.15 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8343dd73-28bd-4ab3-8dae-2208c7498d5e")
+	)
+	(wire
+		(pts
+			(xy 205.74 130.81) (xy 217.17 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86df6efc-441f-45d2-b15f-f12822a2eae4")
+	)
+	(wire
+		(pts
+			(xy 259.08 140.97) (xy 259.08 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87d1352e-dc4b-498f-a69f-ae2bda686c0a")
+	)
+	(wire
+		(pts
 			(xy 46.99 97.79) (xy 46.99 102.87)
 		)
 		(stroke
@@ -5231,6 +5873,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 148.59) (xy 217.17 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f16d051-8ffe-4a3c-9454-121185a1a608")
+	)
+	(wire
+		(pts
 			(xy 129.54 144.78) (xy 134.62 144.78)
 		)
 		(stroke
@@ -5251,7 +5903,17 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 100.33) (xy 257.81 100.33)
+			(xy 259.08 152.4) (xy 279.4 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "962b7847-09f7-460f-8c07-c7dc23e5473c")
+	)
+	(wire
+		(pts
+			(xy 238.76 100.33) (xy 260.35 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5298,6 +5960,16 @@
 			(type default)
 		)
 		(uuid "ab976047-8ee0-49b7-9554-03e7b513368f")
+	)
+	(wire
+		(pts
+			(xy 252.73 135.89) (xy 252.73 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad04ecb7-d08f-4def-aec5-2fc3572f6b24")
 	)
 	(wire
 		(pts
@@ -5361,13 +6033,23 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 116.84) (xy 257.81 116.84)
+			(xy 257.81 143.51) (xy 265.43 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba9f8670-8e91-4892-b2e0-1c9ff3d15177")
+		(uuid "b82cf252-0795-42be-8510-2bccbb523e08")
+	)
+	(wire
+		(pts
+			(xy 184.15 130.81) (xy 184.15 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba71982b-add7-490a-a2d0-265e01e84ef5")
 	)
 	(wire
 		(pts
@@ -5431,26 +6113,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 128.27) (xy 278.13 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7bf56ac-059e-4f0a-bf97-d27742b973a2")
-	)
-	(wire
-		(pts
-			(xy 257.81 100.33) (xy 266.7 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7e8bfff-64c8-42ec-ba33-365905b44f09")
-	)
-	(wire
-		(pts
 			(xy 128.27 163.83) (xy 128.27 157.48)
 		)
 		(stroke
@@ -5511,6 +6173,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 146.05) (xy 259.08 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e1e4c4-8f96-4cc5-bdff-8ecdb6b8d1b9")
+	)
+	(wire
+		(pts
 			(xy 99.06 140.97) (xy 99.06 147.32)
 		)
 		(stroke
@@ -5531,6 +6203,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 140.97) (xy 259.08 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d873c93e-4e1b-4538-b4a6-e2750de15a0c")
+	)
+	(wire
+		(pts
 			(xy 212.09 102.87) (xy 212.09 114.3)
 		)
 		(stroke
@@ -5538,6 +6220,16 @@
 			(type default)
 		)
 		(uuid "d91ff899-9793-4f38-995a-3cff3dd89367")
+	)
+	(wire
+		(pts
+			(xy 205.74 148.59) (xy 205.74 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc2402aa-21ec-4024-8d00-1e628bf52b4b")
 	)
 	(wire
 		(pts
@@ -5601,13 +6293,13 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 111.76) (xy 251.46 109.22)
+			(xy 260.35 119.38) (xy 260.35 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "efa60e19-b378-4aa2-8ac7-d2c7e41c94de")
+		(uuid "ef93e37e-295c-4a8d-86d6-ff861518fd2e")
 	)
 	(wire
 		(pts
@@ -5621,13 +6313,13 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 129.54) (xy 251.46 132.08)
+			(xy 184.15 119.38) (xy 260.35 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f64a68d5-3a70-41b6-a7eb-3d37fc1e88b5")
+		(uuid "f2352b12-1e33-4ab2-90d1-03588bbee822")
 	)
 	(wire
 		(pts
@@ -5648,6 +6340,16 @@
 			(type default)
 		)
 		(uuid "f8b43a1a-07c3-44ae-bb16-3b360d231005")
+	)
+	(wire
+		(pts
+			(xy 217.17 130.81) (xy 259.08 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8ee145c-50ee-4d58-bb41-23a76d58d8bc")
 	)
 	(wire
 		(pts
@@ -5679,26 +6381,6 @@
 		)
 		(uuid "fe09757f-f58c-4849-887d-65b17fd77959")
 	)
-	(wire
-		(pts
-			(xy 251.46 127) (xy 251.46 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff4503b3-3b29-40f5-bc03-d806d9eb08eb")
-	)
-	(wire
-		(pts
-			(xy 256.54 119.38) (xy 264.16 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff8e8bee-20a7-4645-b4f0-80ca58c0e9f3")
-	)
 	(label "FIRST_STAGE_FB"
 		(at 116.84 107.95 0)
 		(effects
@@ -5728,6 +6410,16 @@
 			(justify right bottom)
 		)
 		(uuid "636c50d4-1f1e-47c0-a773-108c6ccbd8bd")
+	)
+	(label "SECOND_STAGE_FILTERED"
+		(at 220.98 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78ceb115-9403-4d41-b3ef-e3406ac9f870")
 	)
 	(label "FIRST_STAGE_OUT"
 		(at 139.7 97.79 0)
@@ -5809,16 +6501,16 @@
 		)
 		(uuid "eb351362-bfcf-40be-ac56-3f564edf1ac5")
 	)
-	(hierarchical_label "OUT"
+	(hierarchical_label "AUDIO_OUT"
 		(shape output)
-		(at 264.16 119.38 0)
+		(at 265.43 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "90d11ecb-0801-4307-a2a3-4111d63f1f3a")
+		(uuid "9f0d7f3e-9c64-42bb-bc3a-cd1e5fc79392")
 	)
 	(hierarchical_label "V_{+}"
 		(shape input)
@@ -5852,129 +6544,6 @@
 			(justify left)
 		)
 		(uuid "db595fad-18db-4920-918b-92d5d2a0e977")
-	)
-	(symbol
-		(lib_id "#inventree_kicad:PWR_CONN_3PIN_JST_SH3_VERT_SMD")
-		(at 251.46 119.38 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "06206b6d-9c48-4227-995f-9ec0868b2eeb")
-		(property "Reference" "J6"
-			(at 249.682 116.332 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JST SH3"
-			(at 249.428 118.618 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
-			(at 251.46 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Connector Header Surface Mount 3 position 0.039\" (1.00mm)"
-			(at 251.46 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" "310-0005"
-			(at 251.46 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "InvenTree" "19"
-			(at 251.46 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part URL" "http://10.0.0.33/web/part/19/"
-			(at 251.46 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "d6aab829-48e7-4b6b-a652-6263a120f2f9")
-		)
-		(pin "1"
-			(uuid "58ccf90c-39b0-4a2b-9e2e-ea51a0788c14")
-		)
-		(pin "MP"
-			(uuid "cc8c0b16-d4ac-4909-9c3d-f4253eff7c55")
-		)
-		(pin "2"
-			(uuid "fda58d75-fdba-4b8e-a95e-661e9d51c651")
-		)
-		(pin "MP"
-			(uuid "caeb0409-16ae-4530-be67-e4ac11770674")
-		)
-		(instances
-			(project "headphone_amp"
-				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/fdaed4ad-6382-4025-bc3e-39eb3bc4a0fb"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "#power_symbols:VCC_LOCAL")
@@ -6247,7 +6816,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 38.1 44.45 90)
+		(at 41.91 44.45 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6258,7 +6827,7 @@
 		(fields_autoplaced yes)
 		(uuid "1225e504-b9b8-4971-8c0c-34c2dc7b5088")
 		(property "Reference" "FB3"
-			(at 38.0492 36.83 90)
+			(at 41.8592 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6268,7 +6837,7 @@
 			)
 		)
 		(property "Value" "MDF2016BSS600CTD25"
-			(at 38.0492 39.37 90)
+			(at 41.8592 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6278,7 +6847,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_Wuerth_PMFI-201610"
-			(at 38.1 46.228 90)
+			(at 41.91 46.228 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6289,7 +6858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 44.45 0)
+			(at 41.91 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6300,7 +6869,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 38.1 44.45 0)
+			(at 41.91 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6586,6 +7155,121 @@
 				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/fdaed4ad-6382-4025-bc3e-39eb3bc4a0fb"
 					(reference "U2")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inventree_kicad:C_3900P_NP0_50V_0603")
+		(at 217.17 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1db7c14a-3a82-4221-ac7c-f4ff54ca5fe2")
+		(property "Reference" "C36"
+			(at 220.98 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.9nF"
+			(at 220.98 137.1599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 218.1352 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3900 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+			(at 217.17 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "InvenTree" "30"
+			(at 217.17 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/30/"
+			(at 217.17 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "301-0011"
+			(at 217.17 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d127a0e-49df-4b02-9e49-3f9c32be4efa")
+		)
+		(pin "2"
+			(uuid "95c150f8-f436-4bb9-aa1b-d10dbeb90cb9")
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/fdaed4ad-6382-4025-bc3e-39eb3bc4a0fb"
+					(reference "C36")
+					(unit 1)
 				)
 			)
 		)
@@ -7027,8 +7711,8 @@
 		)
 	)
 	(symbol
-		(lib_id "#power_symbols:VCC_LOCAL")
-		(at 278.13 121.92 0)
+		(lib_id "power:GND")
+		(at 252.73 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7036,9 +7720,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "42a61455-09c1-4bc7-85c6-a88539a5de94")
-		(property "Reference" "#PWR026"
-			(at 278.13 125.73 0)
+		(uuid "3c75fa4f-a277-4527-b065-bbddec734d88")
+		(property "Reference" "#PWR027"
+			(at 252.73 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7048,19 +7732,18 @@
 				)
 			)
 		)
-		(property "Value" "V_{MID}"
-			(at 277.114 117.348 0)
+		(property "Value" "GND"
+			(at 252.73 160.782 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 278.13 121.92 0)
+			(at 252.73 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7071,7 +7754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 278.13 121.92 0)
+			(at 252.73 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7081,8 +7764,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a local label with name \"+3.3V\""
-			(at 278.13 121.92 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7093,12 +7776,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "10a887bd-f037-4cf0-a489-c1f0f0382a67")
+			(uuid "17f949f8-371b-4285-9a8a-2271d0d61eb7")
 		)
 		(instances
 			(project "headphone_amp"
 				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/fdaed4ad-6382-4025-bc3e-39eb3bc4a0fb"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7241,7 +7924,7 @@
 				)
 			)
 		)
-		(property "Value" "V_{+}"
+		(property "Value" "V_{+}F"
 			(at 69.596 31.242 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7292,83 +7975,6 @@
 			(project "headphone_amp"
 				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/fdaed4ad-6382-4025-bc3e-39eb3bc4a0fb"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 251.46 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "60badd97-514e-4336-851c-323bbb28ec24")
-		(property "Reference" "#PWR027"
-			(at 251.46 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 251.46 136.652 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "403d873f-de18-4f0e-ac50-2d045482dc9e")
-		)
-		(instances
-			(project "headphone_amp"
-				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/fdaed4ad-6382-4025-bc3e-39eb3bc4a0fb"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7695,7 +8301,7 @@
 		)
 	)
 	(symbol
-		(lib_id "#inventree_kicad:C_51P_NP0_50V_0402")
+		(lib_id "inventree_kicad:C_470P_NP0_50V_0402")
 		(at 224.79 71.12 90)
 		(unit 1)
 		(body_style 1)
@@ -7715,14 +8321,15 @@
 				)
 			)
 		)
-		(property "Value" "51pF"
-			(at 229.362 69.85 90)
+		(property "Value" "470pF"
+			(at 233.426 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -7747,7 +8354,7 @@
 				)
 			)
 		)
-		(property "Description" "51 pF ±5% 50V Ceramic Capacitor COG, NP0 0402 (1005 Metric)"
+		(property "Description" "470 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 224.79 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7758,7 +8365,7 @@
 				)
 			)
 		)
-		(property "IPN" "301-0004"
+		(property "IPN" "301-0002"
 			(at 224.79 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7769,7 +8376,7 @@
 				)
 			)
 		)
-		(property "InvenTree" "17"
+		(property "InvenTree" "14"
 			(at 224.79 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7780,7 +8387,7 @@
 				)
 			)
 		)
-		(property "Part URL" "http://10.0.0.33/web/part/17/"
+		(property "Part URL" "http://10.0.0.33/web/part/14/"
 			(at 224.79 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -8035,6 +8642,84 @@
 		)
 	)
 	(symbol
+		(lib_id "#power_symbols:VCC_LOCAL")
+		(at 205.74 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "912ce081-74e9-404f-9a3a-0c81ca0c9b0d")
+		(property "Reference" "#PWR092"
+			(at 205.74 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V_{MID}"
+			(at 204.724 137.668 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"+3.3V\""
+			(at 205.74 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa8df138-28ec-4a83-bce5-af369723eba3")
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/fdaed4ad-6382-4025-bc3e-39eb3bc4a0fb"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "#inventree_kicad:C_0U047_X7R_25V_0402")
 		(at 99.06 151.13 0)
 		(unit 1)
@@ -8144,6 +8829,84 @@
 			(project "headphone_amp"
 				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/fdaed4ad-6382-4025-bc3e-39eb3bc4a0fb"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#power_symbols:VCC_LOCAL")
+		(at 279.4 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aa12c981-5457-4e01-a59e-bbc7bf209146")
+		(property "Reference" "#PWR026"
+			(at 279.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V_{MID}"
+			(at 278.384 141.478 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"+3.3V\""
+			(at 279.4 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "603638b3-9dc4-437d-8b44-2fbd41f4b432")
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/fdaed4ad-6382-4025-bc3e-39eb3bc4a0fb"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -9004,6 +9767,129 @@
 		)
 	)
 	(symbol
+		(lib_id "#inventree_kicad:PWR_CONN_3PIN_JST_SH3_VERT_SMD")
+		(at 252.73 143.51 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d311dd85-6bd9-42c7-85dd-3ebd81dae52a")
+		(property "Reference" "J6"
+			(at 250.952 140.462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST SH3"
+			(at 250.698 142.748 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
+			(at 252.73 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Connector Header Surface Mount 3 position 0.039\" (1.00mm)"
+			(at 252.73 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "310-0005"
+			(at 252.73 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "InvenTree" "19"
+			(at 252.73 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/19/"
+			(at 252.73 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e7acf2ac-7c99-4341-9ccf-741409703981")
+		)
+		(pin "1"
+			(uuid "29e19776-c92c-4582-8319-9799a11c3adc")
+		)
+		(pin "MP"
+			(uuid "25005222-1103-4c13-ba89-9231ea6a0f8d")
+		)
+		(pin "2"
+			(uuid "a701a116-7cdc-491b-a2d0-89f163ad1d5b")
+		)
+		(pin "MP"
+			(uuid "5a269b88-fd48-41e1-8500-202650f838a7")
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/fdaed4ad-6382-4025-bc3e-39eb3bc4a0fb"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "#inventree_kicad:R_4K7_0402_1PCT_0W0625")
 		(at 99.06 137.16 0)
 		(unit 1)
@@ -9225,6 +10111,118 @@
 			(project "headphone_amp"
 				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/fdaed4ad-6382-4025-bc3e-39eb3bc4a0fb"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inventree_kicad:R_10K_0402_1PCT_0W0625")
+		(at 201.93 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e33aa5a8-0f7f-4cf0-bd0b-1825157f4886")
+		(property "Reference" "R18"
+			(at 195.834 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 207.264 129.286 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 202.184 129.794 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
+			(at 201.93 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "InvenTree" "1"
+			(at 201.93 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/1/"
+			(at 201.93 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "302-0001"
+			(at 201.93 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd9b365e-ad84-4195-929a-1281069ad4b4")
+		)
+		(pin "2"
+			(uuid "66edb0ad-4630-4c74-a60a-c17b466f635a")
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/fdaed4ad-6382-4025-bc3e-39eb3bc4a0fb"
+					(reference "R18")
 					(unit 1)
 				)
 			)

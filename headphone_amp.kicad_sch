@@ -1824,16 +1824,6 @@
 				(justify left top)
 			)
 		)
-		(pin "OUT" output
-			(at 102.87 149.86 0)
-			(uuid "5d28e5ec-bf43-4798-b32d-eb9d39be3c65")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "V_{+}" input
 			(at 86.36 139.7 90)
 			(uuid "b3208319-319c-44dd-901f-e5f3ec38bb58")
@@ -1857,6 +1847,16 @@
 		(pin "WD_AUDIO_OUT" output
 			(at 102.87 147.32 0)
 			(uuid "7ceb56b0-286e-4fdf-8197-569200e2154c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AUDIO_OUT" output
+			(at 102.87 149.86 0)
+			(uuid "744c552b-c574-428a-a370-f0d5321b2423")
 			(effects
 				(font
 					(size 1.27 1.27)
