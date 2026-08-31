@@ -5026,6 +5026,12 @@
 		(uuid "797edd16-3cbf-469b-907f-3c83653cbab7")
 	)
 	(junction
+		(at 217.17 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dbf1b8b-f9bf-4476-acc2-35186c78e0c8")
+	)
+	(junction
 		(at 212.09 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5042,12 +5048,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f1d5b49-bd47-4476-b88a-cf05eb503bc9")
-	)
-	(junction
-		(at 217.17 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "913b84f5-588f-42b2-b011-ce3c970954dd")
 	)
 	(junction
 		(at 260.35 100.33)
@@ -5133,7 +5133,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 148.59) (xy 217.17 139.7)
+			(xy 217.17 148.59) (xy 217.17 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5193,7 +5193,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 130.81) (xy 217.17 132.08)
+			(xy 217.17 130.81) (xy 217.17 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7161,7 +7161,7 @@
 	)
 	(symbol
 		(lib_id "inventree_kicad:C_3900P_NP0_50V_0603")
-		(at 217.17 135.89 0)
+		(at 217.17 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7172,17 +7172,6 @@
 		(fields_autoplaced yes)
 		(uuid "1db7c14a-3a82-4221-ac7c-f4ff54ca5fe2")
 		(property "Reference" "C36"
-			(at 220.98 134.6199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.9nF"
 			(at 220.98 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7193,8 +7182,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "3.9nF"
+			(at 220.98 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 218.1352 139.7 0)
+			(at 218.1352 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7205,7 +7205,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 135.89 0)
+			(at 217.17 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7216,7 +7216,7 @@
 			)
 		)
 		(property "Description" "3900 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
-			(at 217.17 135.89 0)
+			(at 217.17 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7227,7 +7227,7 @@
 			)
 		)
 		(property "InvenTree" "30"
-			(at 217.17 135.89 0)
+			(at 217.17 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7238,7 +7238,7 @@
 			)
 		)
 		(property "Part URL" "http://10.0.0.33/web/part/30/"
-			(at 217.17 135.89 0)
+			(at 217.17 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7249,7 +7249,7 @@
 			)
 		)
 		(property "IPN" "301-0011"
-			(at 217.17 135.89 0)
+			(at 217.17 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
