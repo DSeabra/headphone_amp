@@ -4892,7 +4892,7 @@
 		)
 		(uuid "aa61e66a-0596-47b7-9d7a-03d40f1f2fde")
 	)
-	(text "U2, in conjuction with R18 and C36, create a second-order\nLPF at ~4kHz for a \"cab filter\" effect (removes harsh\nhigh-frequency \"fizz\")"
+	(text "U2, in conjuction with R18 and C36, creates a second-order\nLPF at ~4kHz for a \"cab filter\" effect (removes harsh\nhigh-frequency \"fizz\")"
 		(exclude_from_sim no)
 		(at 180.34 157.48 0)
 		(effects
@@ -6033,7 +6033,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 143.51) (xy 265.43 143.51)
+			(xy 257.81 143.51) (xy 262.89 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6503,7 +6503,7 @@
 	)
 	(hierarchical_label "AUDIO_OUT"
 		(shape output)
-		(at 265.43 143.51 0)
+		(at 262.89 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)

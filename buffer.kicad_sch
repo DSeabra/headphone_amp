@@ -4368,7 +4368,7 @@
 				)
 			)
 		)
-		(property "Value" "AudioJack3"
+		(property "Value" "SJ-3523-SMT-TR"
 			(at 249.555 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4378,7 +4378,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
 			(at 247.65 104.14 0)
 			(hide yes)
 			(show_name no)
