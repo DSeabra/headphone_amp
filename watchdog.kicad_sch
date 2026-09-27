@@ -10223,10 +10223,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "41715bff-b839-4750-bac9-c755a549842c")
 		(property "Reference" "U7"
-			(at 140.208 59.69 0)
+			(at 134.62 62.992 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10237,7 +10236,7 @@
 			)
 		)
 		(property "Value" "74HC14BQ,115"
-			(at 140.97 77.978 0)
+			(at 131.318 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10422,10 +10421,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "445e0ab0-b947-4ffd-9574-efc4d6e2272a")
 		(property "Reference" "U7"
-			(at 83.058 20.32 0)
+			(at 77.724 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10436,7 +10434,7 @@
 			)
 		)
 		(property "Value" "74HC14BQ,115"
-			(at 83.82 38.608 0)
+			(at 75.184 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

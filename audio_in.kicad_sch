@@ -4049,8 +4049,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 8.89 0)
+			(property "Reference" "J10"
+				(at -0.635 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4060,7 +4060,7 @@
 				)
 			)
 			(property "Value" "AudioJack2"
-				(at 0 6.35 0)
+				(at -0.635 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4069,8 +4069,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal"
+				(at 0.762 -5.588 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4092,7 +4092,7 @@
 				)
 			)
 			(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-				(at 0 0 0)
+				(at -1.016 -8.382 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4126,8 +4126,8 @@
 			)
 			(symbol "AudioJack2_0_1"
 				(rectangle
-					(start -3.81 0)
-					(end -2.54 -2.54)
+					(start -3.81 -1.27)
+					(end -2.54 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4138,7 +4138,7 @@
 				)
 				(rectangle
 					(start -2.54 3.81)
-					(end 2.54 -2.54)
+					(end 6.35 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4149,7 +4149,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
+						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 3.81 0)
 					)
 					(stroke
 						(width 0.254)
@@ -4161,7 +4161,19 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
+						(xy 2.54 0) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
 					)
 					(stroke
 						(width 0.254)
@@ -4174,16 +4186,16 @@
 			)
 			(symbol "AudioJack2_1_1"
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 8.89 2.54 180)
 					(length 2.54)
-					(name ""
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "S"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4192,16 +4204,34 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 8.89 0 180)
 					(length 2.54)
-					(name ""
+					(name "T"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5949,6 +5979,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f20cf7fa-ea1d-4e0f-b4be-c7df24e1c066")
+	)
+	(no_connect
+		(at 39.37 110.49)
+		(uuid "22b8fcab-d5d7-444d-b51b-2ee98866dad7")
 	)
 	(wire
 		(pts
@@ -8225,6 +8259,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:AudioJack2")
+		(at 30.48 113.03 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1f357351-8c46-4720-820f-7e480ffa0e56")
+		(property "Reference" "J10"
+			(at 29.845 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack2"
+			(at 29.845 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "connectors:CONN_MJ-3523_CUD"
+			(at 31.242 107.442 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+			(at 29.464 104.648 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "10"
+			(uuid "4e5bdd73-fa7d-41ea-babb-41d8d84d50ab")
+		)
+		(pin "2"
+			(uuid "b45ae0a1-7800-418d-a007-19293d3b7235")
+		)
+		(pin "1"
+			(uuid "976ff94d-54ae-45bf-9a6e-271b8a786b67")
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/fdaed4ad-6382-4025-bc3e-39eb3bc4a0fb"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "#inventree_kicad:R_51K_0402_1PCT_0W0625")
 		(at 124.46 128.27 90)
 		(unit 1)
@@ -8655,86 +8772,6 @@
 			(project "headphone_amp"
 				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/fdaed4ad-6382-4025-bc3e-39eb3bc4a0fb"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack2")
-		(at 34.29 113.03 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3c2a48eb-ca3c-4ddb-b0be-3b728f9bd5ad")
-		(property "Reference" "J10"
-			(at 33.655 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AudioJack2"
-			(at 33.655 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal"
-			(at 34.29 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 34.29 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "S"
-			(uuid "c7b150d7-3300-47ad-9131-bb2412e7df23")
-		)
-		(pin "T"
-			(uuid "b528fac9-e640-4490-9a2d-3c6afdbb172f")
-		)
-		(instances
-			(project "headphone_amp"
-				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/fdaed4ad-6382-4025-bc3e-39eb3bc4a0fb"
-					(reference "J10")
 					(unit 1)
 				)
 			)
