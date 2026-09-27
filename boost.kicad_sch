@@ -3786,7 +3786,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 176.784 125.476 90)
 			(hide yes)
 			(show_name no)
@@ -4099,7 +4099,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 217.4748 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4255,7 +4255,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 184.15 100.6348 0)
 			(hide yes)
 			(show_name no)
@@ -5039,7 +5039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 125.4252 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -5082,85 +5082,6 @@
 			(project "headphone_amp"
 				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 100.33 109.22 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "87808f96-3ad4-401f-bfae-03ee6d425d89")
-		(property "Reference" "R19"
-			(at 94.996 108.204 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 104.902 108.204 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.584 108.204 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 100.33 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f32232f9-eb95-4cda-8e94-40c0a79b9b7b")
-		)
-		(pin "1"
-			(uuid "0dda8d78-9570-45ee-b4f7-1dd16ff23c28")
-		)
-		(instances
-			(project "headphone_amp"
-				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a"
-					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -5395,6 +5316,85 @@
 			(project "headphone_amp"
 				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 100.33 109.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "920194e2-7343-42df-805e-cfcb54c97d5c")
+		(property "Reference" "R19"
+			(at 94.996 108.204 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 104.902 108.204 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 100.584 108.204 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 100.33 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0f10f316-cada-45f4-96ad-70ee7a685d8c")
+		)
+		(pin "1"
+			(uuid "646db5d2-3009-459c-9624-2bebf92316d1")
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -5775,7 +5775,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 75.184 89.154 90)
 			(hide yes)
 			(show_name no)
@@ -6047,7 +6047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 178.7652 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6365,7 +6365,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 231.4448 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6447,7 +6447,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 100.584 121.666 90)
 			(hide yes)
 			(show_name no)
@@ -6529,7 +6529,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 84.1248 116.84 0)
 			(hide yes)
 			(show_name no)

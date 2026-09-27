@@ -946,10 +946,10 @@
 		(uuid "ec114fd4-4e1f-4c4f-92c4-d91cecd82dcc")
 	)
 	(junction
-		(at 72.39 99.06)
+		(at 100.33 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ee8112df-25f0-4c69-af80-e538ed454bd5")
+		(uuid "36cc1e94-9299-40b6-9147-e34029535db3")
 	)
 	(wire
 		(pts
@@ -1023,16 +1023,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 99.06) (xy 72.39 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47b52212-1428-4029-b022-ba91a9eb5736")
-	)
-	(wire
-		(pts
 			(xy 52.07 88.9) (xy 52.07 86.36)
 		)
 		(stroke
@@ -1053,7 +1043,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 99.06) (xy 102.87 99.06)
+			(xy 93.98 99.06) (xy 100.33 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1073,7 +1063,17 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 99.06) (xy 72.39 99.06)
+			(xy 100.33 99.06) (xy 100.33 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99eabcab-0fae-409b-9023-9af20f39920d")
+	)
+	(wire
+		(pts
+			(xy 68.58 99.06) (xy 86.36 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1093,16 +1093,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 99.06) (xy 86.36 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbd41693-480f-468a-8450-fe88dd24f9fc")
-	)
-	(wire
-		(pts
 			(xy 63.5 104.14) (xy 63.5 106.68)
 		)
 		(stroke
@@ -1110,6 +1100,16 @@
 			(type default)
 		)
 		(uuid "c4e6f43e-3a71-4da4-bf7f-813e8f9fee16")
+	)
+	(wire
+		(pts
+			(xy 100.33 99.06) (xy 102.87 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3bcec87-b5a3-4285-966e-4f7596b54246")
 	)
 	(wire
 		(pts
@@ -1140,6 +1140,26 @@
 			(justify left bottom)
 		)
 		(uuid "08af0860-cb74-4d06-81f2-a0fc667939da")
+	)
+	(label "S_T-"
+		(at 71.12 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43c6bf8c-a87d-4ba8-a31f-5a2c9c2fb874")
+	)
+	(label "S_T+"
+		(at 71.12 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60b86691-67e2-46f3-a91c-cb37c7b85b4d")
 	)
 	(label "V_{BAT}"
 		(at 97.79 76.2 0)
@@ -1487,84 +1507,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 72.39 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f67da92-d15b-4570-a514-f107400e36ed")
-		(property "Reference" "#PWR014"
-			(at 72.39 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.39 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0bea9048-c8f0-45a5-b675-77d51bdf4b49")
-		)
-		(instances
-			(project "headphone_amp"
-				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/74a7e50f-a1a3-4295-a28c-ad733432c5cd"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "#inventree_kicad:FB_330R_0402_1A2")
 		(at 86.36 76.2 90)
 		(unit 1)
@@ -1672,6 +1614,84 @@
 			(project "headphone_amp"
 				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/74a7e50f-a1a3-4295-a28c-ad733432c5cd"
 					(reference "FB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "861aff70-6577-4fe8-9a0f-952753c48ba5")
+		(property "Reference" "#PWR014"
+			(at 100.33 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4e1e9b9-1569-4886-8e82-d8e44816e34d")
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/74a7e50f-a1a3-4295-a28c-ad733432c5cd"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)

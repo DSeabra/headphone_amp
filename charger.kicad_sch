@@ -2428,12 +2428,6 @@
 		(uuid "2e17ac41-598f-46ee-9307-c64e472a4371")
 	)
 	(junction
-		(at 46.99 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "317e75ef-92a7-4d80-be4a-1e4f42b306a9")
-	)
-	(junction
 		(at 194.31 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2552,16 +2546,6 @@
 			(type default)
 		)
 		(uuid "1d8edfe4-a2e4-462b-89b1-2f168b6624cf")
-	)
-	(wire
-		(pts
-			(xy 46.99 100.33) (xy 46.99 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f7e72ff-b34a-4565-9f83-44e693a88f6d")
 	)
 	(wire
 		(pts
@@ -4495,7 +4479,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 91.694 117.856 90)
 			(hide yes)
 			(show_name no)
@@ -5033,6 +5017,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 179.07 113.03 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50d9bea5-8e49-435f-9bb7-ba3e9ac42074")
+		(property "Reference" "C31"
+			(at 182.88 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 182.88 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 178.1048 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 179.07 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d3de049b-25d8-430f-abc8-6e21097b5162")
+		)
+		(pin "1"
+			(uuid "71db5cdb-b61d-4896-b228-d181b8cab59f")
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/88a6fbe6-41b3-454b-9d65-28a89e2e6ca4"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 179.07 119.38 0)
 		(unit 1)
@@ -5450,7 +5516,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 72.6948 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -5993,83 +6059,6 @@
 			(project "headphone_amp"
 				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/88a6fbe6-41b3-454b-9d65-28a89e2e6ca4"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 46.99 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b89b30b2-4649-4285-b169-82037272ab1b")
-		(property "Reference" "#PWR076"
-			(at 46.99 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 47.244 108.712 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "29e24751-ed12-44de-ad8c-8c2a882e3679")
-		)
-		(instances
-			(project "headphone_amp"
-				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/88a6fbe6-41b3-454b-9d65-28a89e2e6ca4"
-					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -6986,88 +6975,6 @@
 			(project "headphone_amp"
 				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/88a6fbe6-41b3-454b-9d65-28a89e2e6ca4"
 					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 179.07 113.03 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec836d51-92d6-404d-8362-e9596b565653")
-		(property "Reference" "C31"
-			(at 182.88 111.7599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 182.88 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 178.1048 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 179.07 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "43a6e6ca-0d33-450a-ae5f-6cbc3fa98ffe")
-		)
-		(pin "1"
-			(uuid "64cff253-c28c-4666-920e-faaf2f132ba7")
-		)
-		(instances
-			(project "headphone_amp"
-				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/88a6fbe6-41b3-454b-9d65-28a89e2e6ca4"
-					(reference "C31")
 					(unit 1)
 				)
 			)
