@@ -7227,14 +7227,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:TPS7A0508PDBV"
+		(symbol "integrated_circuits:PWR_LDO_2V5_TLV7A0325PDBVR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -3.81 6.35 0)
+			(property "Reference" "U9"
+				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -7243,8 +7243,8 @@
 					)
 				)
 			)
-			(property "Value" "TPS7A0508PDBV"
-				(at 6.35 6.35 0)
+			(property "Value" "TLV7A0325PDBVR"
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -7264,7 +7264,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a05.pdf"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv7a03.pdf?ts=1753870952666&ref_url=https%253A%252F%252Fwww.bing.com%252F"
 				(at 0 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7308,7 +7308,7 @@
 					)
 				)
 			)
-			(symbol "TPS7A0508PDBV_0_1"
+			(symbol "PWR_LDO_2V5_TLV7A0325PDBVR_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end 5.08 5.08)
@@ -10246,7 +10246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
+		(property "Footprint" "integrated_circuits:DHVQFN14_SOT762-1_NEX"
 			(at 138.43 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10444,7 +10444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
+		(property "Footprint" "integrated_circuits:DHVQFN14_SOT762-1_NEX"
 			(at 81.28 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10643,7 +10643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
+		(property "Footprint" "integrated_circuits:DHVQFN14_SOT762-1_NEX"
 			(at 260.35 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -10731,7 +10731,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:TPS7A0508PDBV")
+		(lib_id "integrated_circuits:PWR_LDO_2V5_TLV7A0325PDBVR")
 		(at 181.61 31.75 0)
 		(unit 1)
 		(body_style 1)
@@ -11124,7 +11124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
+		(property "Footprint" "integrated_circuits:DHVQFN14_SOT762-1_NEX"
 			(at 260.35 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -11323,7 +11323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
+		(property "Footprint" "integrated_circuits:DHVQFN14_SOT762-1_NEX"
 			(at 260.35 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -11910,7 +11910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
+		(property "Footprint" "integrated_circuits:DHVQFN14_SOT762-1_NEX"
 			(at 212.09 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -13543,7 +13543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
+		(property "Footprint" "integrated_circuits:DHVQFN14_SOT762-1_NEX"
 			(at 260.35 97.79 0)
 			(hide yes)
 			(show_name no)
