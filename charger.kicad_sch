@@ -2350,6 +2350,17 @@
 		)
 		(uuid "34e1e28a-e86b-42e0-98cc-d75bffdc4506")
 	)
+	(text "TS trip thresholds:\n  Cold trip: 3.7C\n  Hot trip: 47C"
+		(exclude_from_sim no)
+		(at 57.404 75.438 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56bb7537-a07f-4286-b313-87e80963cd94")
+	)
 	(text "t_{MAXCHG} = R _{TMR} * 10 * K_{TMR}\nK_{TMR} =  48 s*kOhms\n  => t_{MAXCHG} = ${/62ffec33-ae93-49a8-bfe6-566578dd8e82/88a6fbe6-41b3-454b-9d65-28a89e2e6ca4/1fef2d8c-7095-4b02-b63c-4dbb8f1664e8:Value} * 48 s*kOhms * 10 = 6.2 hours"
 		(exclude_from_sim no)
 		(at 80.01 153.162 0)
@@ -2361,9 +2372,9 @@
 		)
 		(uuid "6821fc2e-a211-4356-aaf9-5209a57b00cf")
 	)
-	(text "TODO: Pick switch type (slide? panel/thru?)"
+	(text "Switch part: Adam Tech SW-T3-1A-A-A3-S1"
 		(exclude_from_sim no)
-		(at 239.776 21.844 0)
+		(at 243.078 23.876 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5050,7 +5061,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 178.1048 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5516,7 +5527,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 72.6948 95.25 0)
 			(hide yes)
 			(show_name no)

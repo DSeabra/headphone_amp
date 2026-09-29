@@ -3256,7 +3256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:Texas_S-PVSON-N10"
+		(property "Footprint" "integrated_circuits:Texas_S-PVSON-N10"
 			(at 97.79 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -3362,7 +3362,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:Texas_S-PVSON-N10"
+		(property "Footprint" "integrated_circuits:Texas_S-PVSON-N10"
 			(at 97.79 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3847,7 +3847,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:Texas_S-PVSON-N10"
+		(property "Footprint" "integrated_circuits:Texas_S-PVSON-N10"
 			(at 97.79 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -3954,7 +3954,7 @@
 				)
 			)
 		)
-		(property "Footprint" "cap_polymer:WCAP-PSLP_6.3X5.8_DXL_"
+		(property "Footprint" "polymers:WCAP-PSLP_6.3X5.8_DXL_"
 			(at 173.99 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4732,7 +4732,7 @@
 				)
 			)
 		)
-		(property "Footprint" "cap_polymer:WCAP-PSLP_6.3X5.8_DXL_"
+		(property "Footprint" "polymers:WCAP-PSLP_6.3X5.8_DXL_"
 			(at 173.99 124.46 0)
 			(hide yes)
 			(show_name no)

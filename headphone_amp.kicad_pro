@@ -76,7 +76,64 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|45988512|32996578|df42f875-afd3-4887-9ae5-b2ffd3acb23d|7e201526-2661-4d98-9254-f959f8368936",
+          ""
+        ],
+        [
+          "copper_edge_clearance|49630329|29351791|df42f875-afd3-4887-9ae5-b2ffd3acb23d|7e201526-2661-4d98-9254-f959f8368936",
+          ""
+        ],
+        [
+          "silk_edge_clearance|105974000|61992200|df42f875-afd3-4887-9ae5-b2ffd3acb23d|66394d26-e363-444e-963f-92b2f58c5d41",
+          ""
+        ],
+        [
+          "silk_edge_clearance|105974000|67192200|df42f875-afd3-4887-9ae5-b2ffd3acb23d|112148e4-86b8-4139-9133-7f1f1079b418",
+          ""
+        ],
+        [
+          "silk_edge_clearance|45974000|51011100|df42f875-afd3-4887-9ae5-b2ffd3acb23d|b061eb29-ad03-4049-b5a6-2337df0e0d88",
+          ""
+        ],
+        [
+          "silk_edge_clearance|45974000|56268900|df42f875-afd3-4887-9ae5-b2ffd3acb23d|48d1eb54-3858-416a-9584-2818819aa3a5",
+          ""
+        ],
+        [
+          "silk_over_copper|47789808|56764200|7f2262de-c33d-4087-8e76-08c7e2f43e7c|261b3231-999d-4c56-9fca-e624d18f1291",
+          ""
+        ],
+        [
+          "silk_over_copper|57189801|56764200|7f2262de-c33d-4087-8e76-08c7e2f43e7c|049f757b-94e9-48e5-87d0-5de882ad0600",
+          ""
+        ],
+        [
+          "silk_over_copper|61125100|53994900|9ab9872b-4dba-45bd-905e-820f2493d464|c6c5aa98-5e60-4596-b6c7-25695ba75418",
+          ""
+        ],
+        [
+          "silk_overlap|84656150|74554478|51168ac0-319b-4860-ac9f-bd747fcc0661|d5fd4c59-0843-4206-886d-44473f8cf6f2",
+          ""
+        ],
+        [
+          "starved_thermal|60189237|73899499|7e201526-2661-4d98-9254-f959f8368936|f2fb4255-9326-41c2-b24c-4a2f174f6125|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|60189237|74686899|7e201526-2661-4d98-9254-f959f8368936|07cd84aa-0f45-4af7-9524-169521e783be|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|60976637|73899499|7e201526-2661-4d98-9254-f959f8368936|954dcb38-db43-47fb-ac14-1dc244296a03|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|60976637|74686899|7e201526-2661-4d98-9254-f959f8368936|fb97eb61-9dea-48d6-9dba-3253653bacbe|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -155,7 +212,7 @@
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.127,
+        "min_silk_clearance": 0.1016,
         "min_text_height": 0.7112,
         "min_text_thickness": 0.1016,
         "min_through_hole_diameter": 0.3048,
@@ -629,7 +686,7 @@
           "group_by": false,
           "label": "PN",
           "name": "PN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

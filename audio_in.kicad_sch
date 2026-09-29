@@ -5699,6 +5699,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "PN: CB027D0104JBA "
+		(exclude_from_sim no)
+		(at 92.964 84.074 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1fb01c67-58ad-4f43-a6fd-649637f02c6b")
+	)
 	(text "Optional \"hard clipping\""
 		(exclude_from_sim no)
 		(at 263.652 40.386 0)
@@ -5709,29 +5719,31 @@
 		)
 		(uuid "611740b9-c457-4d06-9458-c214cef20589")
 	)
-	(text "TODO: Pin 9/EPAD on OPA1678"
+	(text "Gain pot\nPN: PDB181-GTR02-504A2"
 		(exclude_from_sim no)
-		(at 44.45 77.216 0)
+		(at 138.684 147.574 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(uuid "7f448c0e-8638-4794-8e74-183dc7b5e880")
+		(uuid "6ebcb49d-a995-4de7-a53f-60f38e39781e")
 	)
-	(text "Volume pot"
+	(text "Volume pot\nPN: PDB181-GTR01-103A2"
 		(exclude_from_sim no)
-		(at 266.7 137.414 0)
+		(at 255.524 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "82f9c68a-b17b-439a-b666-6f4ba354457f")
 	)
 	(text "AC-Coupling Cap: Choose Film!"
 		(exclude_from_sim no)
-		(at 92.964 83.82 0)
+		(at 92.964 81.534 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5748,16 +5760,6 @@
 			)
 		)
 		(uuid "98c64344-0784-457e-9389-221a5d1853d1")
-	)
-	(text "Gain pot"
-		(exclude_from_sim no)
-		(at 154.94 132.842 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "aa61e66a-0596-47b7-9d7a-03d40f1f2fde")
 	)
 	(text "U2, in conjuction with R18 and C36, creates a second-order\nLPF at ~4kHz for a \"cab filter\" effect (removes harsh\nhigh-frequency \"fizz\")"
 		(exclude_from_sim no)
@@ -8019,10 +8021,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "13cef38b-9706-44a3-9d6c-8d7d099420da")
 		(property "Reference" "U2"
-			(at 72.39 46.99 0)
+			(at 73.66 47.498 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8032,7 +8033,7 @@
 			)
 		)
 		(property "Value" "OPA1678"
-			(at 72.39 49.53 0)
+			(at 75.946 50.038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9061,7 +9062,7 @@
 		(dnp no)
 		(uuid "715a9ca6-7f68-4b49-9a7e-b2c9d07cdea3")
 		(property "Reference" "U2"
-			(at 222.25 110.49 0)
+			(at 220.726 92.456 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9071,7 +9072,7 @@
 			)
 		)
 		(property "Value" "OPA1678"
-			(at 222.25 107.95 0)
+			(at 223.266 94.742 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
