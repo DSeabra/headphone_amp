@@ -78,11 +78,15 @@
       ],
       "drc_exclusions": [
         [
-          "copper_edge_clearance|45988512|32996578|df42f875-afd3-4887-9ae5-b2ffd3acb23d|7e201526-2661-4d98-9254-f959f8368936",
+          "copper_edge_clearance|45979874|33120292|df42f875-afd3-4887-9ae5-b2ffd3acb23d|7e201526-2661-4d98-9254-f959f8368936",
           ""
         ],
         [
-          "copper_edge_clearance|49630329|29351791|df42f875-afd3-4887-9ae5-b2ffd3acb23d|7e201526-2661-4d98-9254-f959f8368936",
+          "copper_edge_clearance|49755261|29342985|df42f875-afd3-4887-9ae5-b2ffd3acb23d|7e201526-2661-4d98-9254-f959f8368936",
+          ""
+        ],
+        [
+          "copper_edge_clearance|50303874|89337000|df42f875-afd3-4887-9ae5-b2ffd3acb23d|dbf0f1de-fd3a-4546-b5f5-30331d69dee8",
           ""
         ],
         [
@@ -202,10 +206,10 @@
         "zones_intersect": "error"
       },
       "rules": {
-        "max_error": 0.005,
+        "max_error": 0.002,
         "min_clearance": 0.127,
         "min_connection": 0.127,
-        "min_copper_edge_clearance": 0.4572,
+        "min_copper_edge_clearance": 0.475,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.254,
@@ -301,7 +305,7 @@
           "drill": 0.0
         }
       ],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "bom_rev": "",
@@ -330,7 +334,24 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1460500|914400|50bf28fc-c1aa-46cf-9c8b-6ab91d1cd735|cb601b51-8b84-4dd1-b410-8bbe414e7ea2|/62ffec33-ae93-49a8-bfe6-566578dd8e82/88a6fbe6-41b3-454b-9d65-28a89e2e6ca4|/62ffec33-ae93-49a8-bfe6-566578dd8e82/88a6fbe6-41b3-454b-9d65-28a89e2e6ca4|/62ffec33-ae93-49a8-bfe6-566578dd8e82/88a6fbe6-41b3-454b-9d65-28a89e2e6ca4",
+        ""
+      ],
+      [
+        "pin_to_pin|1460500|939800|cb601b51-8b84-4dd1-b410-8bbe414e7ea2|0267609d-e967-49c4-aa4b-b46c664ba71e|/62ffec33-ae93-49a8-bfe6-566578dd8e82/88a6fbe6-41b3-454b-9d65-28a89e2e6ca4|/62ffec33-ae93-49a8-bfe6-566578dd8e82/88a6fbe6-41b3-454b-9d65-28a89e2e6ca4|/62ffec33-ae93-49a8-bfe6-566578dd8e82/88a6fbe6-41b3-454b-9d65-28a89e2e6ca4",
+        ""
+      ],
+      [
+        "pin_to_pin|1638300|965200|89a87395-6bab-4167-935d-ea57507a2077|5dcb7c82-f2df-44fd-95fc-cd51caf62501|/62ffec33-ae93-49a8-bfe6-566578dd8e82/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a|/62ffec33-ae93-49a8-bfe6-566578dd8e82/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a|/62ffec33-ae93-49a8-bfe6-566578dd8e82/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1638300|901700|4d1b6028-9232-4161-b43c-487c7fcb6645|00000000-0000-0000-0000-000000000000|/62ffec33-ae93-49a8-bfe6-566578dd8e82/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a|/62ffec33-ae93-49a8-bfe6-566578dd8e82/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -594,7 +615,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./production/Gerbers/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -773,7 +794,7 @@
         "uuid": "62ffec33-ae93-49a8-bfe6-566578dd8e82"
       }
     ],
-    "used_designators": "J10,FID1-6",
+    "used_designators": "#FLG1-8,J10,FID1-6,#PWR76,#PWR96-98,H1-4",
     "variants": []
   },
   "sheets": [
@@ -812,6 +833,10 @@
     [
       "14462d11-f69f-4768-a94b-e7cc4b589cf9",
       "Power Input"
+    ],
+    [
+      "1b75c92e-5526-4022-9f84-403e76dcd775",
+      "Mechanical"
     ]
   ],
   "text_variables": {
