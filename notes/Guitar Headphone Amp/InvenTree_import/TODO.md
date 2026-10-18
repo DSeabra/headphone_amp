@@ -20,24 +20,24 @@ The importer matches **Category** and **Company** by exact name, so these must e
 | `Audio Connectors` | 310-0007/8 (3.5 mm jacks) | Connectors |
 
 Existing categories reused: `Ceramic Capacitors`, `Polymer Capacitors`, `Surface Mount Resistors`, `Ferrite Beads`, `Analog`, `Power`, `Signal Connectors`.
-- [ ] If any of these names appears **twice** in your tree (e.g. a `Power` under both ICs and Connectors), the lookup is ambiguous and those rows will error — either rename, or replace the value in `1_parts.csv` with the full path (e.g. `ICs/Power`).
+- [x] If any of these names appears **twice** in your tree (e.g. a `Power` under both ICs and Connectors), the lookup is ambiguous and those rows will error — either rename, or replace the value in `1_parts.csv` with the full path (e.g. `ICs/Power`).
 - I put the TLE2426 (rail splitter) and TLV7A0325 (LDO) under `Power`. Move them if you'd rather have a Voltage References category.
 
 ### Companies (check which already exist)
 Already seen in your exports (names used exactly as exported): `Yageo`, `Vishay`, `Panasonic`, `Murata Electronics`, `Samsung Electro-Mechanics`, `Texas Instruments`, `JLCPCB`.
 
 Probably new — create as **Manufacturer**:
-- [ ] `Kyocera AVX` — if your film cap (301-0001) already uses a company like "AVX" or "KYOCERA AVX", edit `2_manufacturer_parts.csv` to match instead of creating a duplicate
-- [ ] `TDK`
-- [ ] `Diodes Incorporated`
-- [ ] `Nexperia`
-- [ ] `onsemi`
-- [ ] `Same Sky` (formerly CUI Devices — LCSC still lists it as CUI)
-- [ ] `JST`
-- [ ] `Inolux`
-- [ ] `Walsin`
-- [ ] `FOJAN`
-- [ ] `Fenghua` (LCSC brand "FH" — Guangdong Fenghua Advanced Tech)
+- [x] `Kyocera AVX` — if your film cap (301-0001) already uses a company like "AVX" or "KYOCERA AVX", edit `2_manufacturer_parts.csv` to match instead of creating a duplicate
+- [x] `TDK`
+- [x] `Diodes Incorporated`
+- [x] `Nexperia`
+- [x] `onsemi`
+- [x] `Same Sky` (formerly CUI Devices — LCSC still lists it as CUI)
+- [x] `JST`
+- [x] `Inolux`
+- [x] `Walsin`
+- [x] `FOJAN`
+- [x] `Fenghua` (LCSC brand "FH" — Guangdong Fenghua Advanced Tech)
 
 ---
 
