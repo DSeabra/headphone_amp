@@ -1447,7 +1447,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
+		(symbol "inventree_kicad:C_1U_X6S_25V_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1470,7 +1470,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C"
+			(property "Value" "1uF"
 				(at 0.635 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1481,7 +1481,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 				(at 0.9652 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1503,7 +1503,7 @@
 					)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
+			(property "Description" "1 µF ±10% 25V Ceramic Capacitor X6S 0402 (1005 Metric)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1514,7 +1514,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
+			(property "InvenTree" "42"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1525,7 +1525,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "C_*"
+			(property "Part URL" "http://10.0.0.33/web/part/42/"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1536,7 +1536,29 @@
 					)
 				)
 			)
-			(symbol "C_0_1"
+			(property "IPN" "301-0007"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Capacitor_SMD:C_0402_1005Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_1U_X6S_25V_0402_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -1562,7 +1584,7 @@
 					)
 				)
 			)
-			(symbol "C_1_1"
+			(symbol "C_1U_X6S_25V_0402_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -1602,7 +1624,184 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_Small"
+		(symbol "inventree_kicad:C_4U7_X6S_25V_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "4.7uF"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "4.7 µF ±10% 25V Ceramic Capacitor X6S 0603 (1608 Metric)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "InvenTree" "46"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part URL" "http://10.0.0.33/web/part/46/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "IPN" "301-0012"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_4U7_X6S_25V_0603_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_4U7_X6S_25V_0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "inventree_kicad:LED_AMBER_605NM_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1626,7 +1825,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "LED_Small"
+			(property "Value" "IN-S42ATA"
 				(at -4.445 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1637,7 +1836,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1659,7 +1858,7 @@
 					)
 				)
 			)
-			(property "Description" "Light emitting diode, small symbol"
+			(property "Description" "Amber 605nm LED Indication - Discrete 2.1V 0402 (1005 Metric)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1681,7 +1880,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "LED diode light-emitting-diode"
+			(property "InvenTree" "38"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1692,7 +1891,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(property "Part URL" "http://10.0.0.33/web/part/38/"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1703,7 +1902,29 @@
 					)
 				)
 			)
-			(symbol "LED_Small_0_1"
+			(property "IPN" "308-0003"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED_SMD:LED_0402_1005Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_AMBER_605NM_0402_0_1"
 				(polyline
 					(pts
 						(xy -0.762 -1.016) (xy -0.762 1.016)
@@ -1765,7 +1986,7 @@
 					)
 				)
 			)
-			(symbol "LED_Small_1_1"
+			(symbol "LED_AMBER_605NM_0402_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.778)
@@ -1805,7 +2026,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_US"
+		(symbol "inventree_kicad:R_46K4_0402_1PCT_0W0625"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1827,7 +2048,7 @@
 					)
 				)
 			)
-			(property "Value" "R_US"
+			(property "Value" "46.4K"
 				(at -2.54 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1837,7 +2058,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 				(at 1.016 -0.254 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1859,7 +2080,7 @@
 					)
 				)
 			)
-			(property "Description" "Resistor, US symbol"
+			(property "Description" "46.4 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1870,7 +2091,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "InvenTree" "56"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1881,7 +2102,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
+			(property "Part URL" "http://10.0.0.33/web/part/56/"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1892,7 +2113,29 @@
 					)
 				)
 			)
-			(symbol "R_US_0_1"
+			(property "IPN" "302-0020"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_46K4_0402_1PCT_0W0625_0_1"
 				(polyline
 					(pts
 						(xy 0 2.286) (xy 0 2.54)
@@ -1954,7 +2197,7 @@
 					)
 				)
 			)
-			(symbol "R_US_1_1"
+			(symbol "R_46K4_0402_1PCT_0W0625_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1994,7 +2237,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPST"
+		(symbol "inventree_kicad:SIG_CONN_2PIN_JST_SH2_VERT_SMD"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2004,8 +2247,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW1"
-				(at 0 6.35 0)
+			(property "Reference" "J"
+				(at 0 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2014,8 +2257,8 @@
 					)
 				)
 			)
-			(property "Value" "SW_SPST"
-				(at 0 3.81 0)
+			(property "Value" "JST SH2"
+				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2046,7 +2289,7 @@
 					)
 				)
 			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
+			(property "Description" "Connector Header Surface Mount 2 position 0.039\" (1.00mm)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2057,7 +2300,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "switch lever"
+			(property "InvenTree" "41"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2068,7 +2311,40 @@
 					)
 				)
 			)
-			(symbol "SW_SPST_0_0"
+			(property "Part URL" "http://10.0.0.33/web/part/41/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "IPN" "310-0009"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SIG_CONN_2PIN_JST_SH2_VERT_SMD_0_0"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -2104,7 +2380,7 @@
 					)
 				)
 			)
-			(symbol "SW_SPST_1_1"
+			(symbol "SIG_CONN_2PIN_JST_SH2_VERT_SMD_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2134,44 +2410,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4455,7 +4693,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
+		(lib_id "inventree_kicad:SIG_CONN_2PIN_JST_SH2_VERT_SMD")
 		(at 233.68 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -4476,7 +4714,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "JST SH2"
 			(at 233.68 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4508,7 +4746,40 @@
 				)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
+		(property "Description" "Connector Header Surface Mount 2 position 0.039\" (1.00mm)"
+			(at 233.68 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "InvenTree" "41"
+			(at 233.68 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/41/"
+			(at 233.68 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "310-0009"
 			(at 233.68 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -4524,12 +4795,6 @@
 		)
 		(pin "2"
 			(uuid "8763b7aa-aa7e-40de-bc70-dc7c7bb2750a")
-		)
-		(pin "MP"
-			(uuid "54b7922f-5cec-4e0e-a25e-15d8e449926e")
-		)
-		(pin "MP"
-			(uuid "18d25732-dec0-48b8-8b75-be52a1564824")
 		)
 		(instances
 			(project "headphone_amp"
@@ -4618,7 +4883,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "inventree_kicad:R_46K4_0402_1PCT_0W0625")
 		(at 92.71 118.11 180)
 		(unit 1)
 		(body_style 1)
@@ -4673,7 +4938,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "46.4 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
+			(at 92.71 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "InvenTree" "56"
+			(at 92.71 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/56/"
+			(at 92.71 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "302-0020"
 			(at 92.71 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5267,7 +5565,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "inventree_kicad:C_4U7_X6S_25V_0603")
 		(at 179.07 113.03 180)
 		(unit 1)
 		(body_style 1)
@@ -5322,7 +5620,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "4.7 µF ±10% 25V Ceramic Capacitor X6S 0603 (1608 Metric)"
+			(at 179.07 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "InvenTree" "46"
+			(at 179.07 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/46/"
+			(at 179.07 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "301-0012"
 			(at 179.07 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -5811,7 +6142,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "inventree_kicad:C_4U7_X6S_25V_0603")
 		(at 73.66 99.06 180)
 		(unit 1)
 		(body_style 1)
@@ -5866,7 +6197,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "4.7 µF ±10% 25V Ceramic Capacitor X6S 0603 (1608 Metric)"
+			(at 73.66 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "InvenTree" "46"
+			(at 73.66 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/46/"
+			(at 73.66 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "301-0012"
 			(at 73.66 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6470,7 +6834,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
+		(lib_id "inventree_kicad:LED_AMBER_605NM_0402")
 		(at 153.67 73.66 90)
 		(unit 1)
 		(body_style 1)
@@ -6525,7 +6889,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "Amber 605nm LED Indication - Discrete 2.1V 0402 (1005 Metric)"
 			(at 153.67 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6537,6 +6901,39 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 153.67 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "InvenTree" "38"
+			(at 153.67 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/38/"
+			(at 153.67 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "308-0003"
 			(at 153.67 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6832,7 +7229,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
+		(lib_id "inventree_kicad:LED_AMBER_605NM_0402")
 		(at 170.18 73.66 90)
 		(unit 1)
 		(body_style 1)
@@ -6887,7 +7284,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "Amber 605nm LED Indication - Discrete 2.1V 0402 (1005 Metric)"
 			(at 170.18 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6899,6 +7296,39 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 170.18 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "InvenTree" "38"
+			(at 170.18 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/38/"
+			(at 170.18 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "308-0003"
 			(at 170.18 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -7309,7 +7739,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "inventree_kicad:C_1U_X6S_25V_0402")
 		(at 63.5 106.68 180)
 		(unit 1)
 		(body_style 1)
@@ -7364,7 +7794,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X6S 0402 (1005 Metric)"
+			(at 63.5 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "InvenTree" "42"
+			(at 63.5 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/42/"
+			(at 63.5 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "301-0007"
 			(at 63.5 106.68 0)
 			(hide yes)
 			(show_name no)

@@ -364,7 +364,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV7A0325PDBVR"
+		(property "Value" "TLV7A0325"
 			(at 0 2.4 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -376,7 +376,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv7a03.pdf?ts=1753870952666&ref_url=https%253A%252F%252Fwww.bing.com%252F"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -389,7 +389,7 @@
 				)
 			)
 		)
-		(property "Description" "200-mA Ultra-Low-Iq LDO, 0.8V, SOT-23-5"
+		(property "Description" "Linear Voltage Regulator IC Positive Fixed 2.5V 1 Output SOT-23-5"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -402,8 +402,47 @@
 				)
 			)
 		)
-		(property ki_fp_filters "SOT?23*")
-		(path "/9e81eff7-fa8a-4d9c-b865-cbf1c6348e7c/5d71a802-81af-4206-b16e-e24138177fee")
+		(property "InvenTree" "66"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45320088-0c56-40a2-a179-8e970f1c79d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/66/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35c80547-837c-4991-914b-3e4f40b1c28d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "307-0009"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fe6450c-0bd9-49db-a53d-5382c8f877c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Package_TO_SOT_SMD:SOT-23-5")
+		(path "/9e81eff7-fa8a-4d9c-b865-cbf1c6348e7c/834489dd-6c1d-4ba7-a12c-4318e9bff3fc")
 		(sheetname "/Watchdog/")
 		(sheetfile "watchdog.kicad_sch")
 		(units
@@ -996,7 +1035,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "56.2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1009,7 +1048,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
+		(property "InvenTree" "54"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e03dd9a4-7028-4910-8671-562de1744d3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/54/"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52f83a57-8ac7-4dbd-aca3-c160e05f28d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "302-0018"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b1e37da-9dc3-482f-8200-42e8326ecfdc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Resistor_SMD:R_0402_1005Metric")
 		(path "/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a/02adb1bc-eabe-414e-8901-a9ddcf9aa481")
 		(sheetname "/Boost/")
 		(sheetfile "boost.kicad_sch")
@@ -1611,7 +1689,7 @@
 				)
 			)
 		)
-		(property "Value" "18K"
+		(property "Value" "18.2K"
 			(at 0 1.17 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1636,7 +1714,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "18.2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1649,7 +1727,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
+		(property "InvenTree" "53"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd5e3273-a9de-483e-b76e-99f79ff6a016")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/53/"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc00476e-76e5-44ac-b74f-e6465b6df91c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "302-0017"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3d043e8-edf6-4c3e-a423-e7dd973ff40a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Resistor_SMD:R_0402_1005Metric")
 		(path "/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a/fa78a847-f4ed-4c91-a10b-ea8cae805c0f")
 		(sheetname "/Boost/")
 		(sheetfile "boost.kicad_sch")
@@ -1968,7 +2085,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc02"
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls02"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1981,7 +2098,7 @@
 				)
 			)
 		)
-		(property "Description" "quad 2-input NOR gate"
+		(property "Description" "NOR Gate IC 4 Channel 2-Input 14-TSSOP"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1994,7 +2111,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "SO14* DIP*W7.62mm*")
+		(property "InvenTree" "65"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e961d686-c87c-4e81-b462-070d3b83acd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/65/"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a438fec-f1fe-476a-b42f-fe7733301ccd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "307-0008"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a7dd960-3548-4420-9172-fcc431440d96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")
 		(path "/9e81eff7-fa8a-4d9c-b865-cbf1c6348e7c/c2f11e10-3b7a-46e4-a073-bef09cbcf3bf")
 		(sheetname "/Watchdog/")
 		(sheetfile "watchdog.kicad_sch")
@@ -3190,7 +3346,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1.5 µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3216,7 +3372,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
+		(property "InvenTree" "45"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61681bb9-cf09-4f05-b248-07f0e688542f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/45/"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "501da76e-c590-4c66-9928-37a6708afd47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "301-0010"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44ff01f5-424d-428d-98e0-c5b218daca3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Capacitor_SMD:C_0805_2012Metric")
 		(path "/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a/2415ee3b-38f9-427d-9265-699c0f234482")
 		(sheetname "/Boost/")
 		(sheetfile "boost.kicad_sch")
@@ -3356,7 +3551,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3369,7 +3564,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
+		(property "InvenTree" "23"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92ebca73-4c40-4e96-bc65-d9e291059730")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/23/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8ba15cc-f10c-4a1f-8f78-a89a8fb8d3c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "302-0008"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c322b22-bd72-4240-b1fd-1092405015a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Resistor_SMD:R_0402_1005Metric")
 		(path "/9e81eff7-fa8a-4d9c-b865-cbf1c6348e7c/3a3d54b1-a6c3-4689-8104-1b5ab689d742")
 		(sheetname "/Watchdog/")
 		(sheetfile "watchdog.kicad_sch")
@@ -3701,7 +3935,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "46.4 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3714,7 +3948,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
+		(property "InvenTree" "56"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74c00b2d-99e6-4931-9dda-97c5fa89d7a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/56/"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "671055d1-926e-4eda-b02a-1ba6d69b1590")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "302-0020"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0741458d-07eb-4d8c-99c4-7bc1e21ac8e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Resistor_SMD:R_0402_1005Metric")
 		(path "/88a6fbe6-41b3-454b-9d65-28a89e2e6ca4/1fef2d8c-7095-4b02-b63c-4dbb8f1664e8")
 		(sheetname "/Battery Charger/")
 		(sheetfile "charger.kicad_sch")
@@ -3854,7 +4127,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "2.2 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3867,7 +4140,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
+		(property "InvenTree" "48"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ddc12f0-ad22-463e-a7fa-514aa91d83ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/48/"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c5c3013-c5d4-4c39-a8a3-237bac9c19f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "301-0014"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2337e035-bdee-46e8-a8b2-b3f5d3cdb38f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Capacitor_SMD:C_0603_1608Metric")
 		(path "/9e81eff7-fa8a-4d9c-b865-cbf1c6348e7c/7e61a7a5-4941-468e-94d4-214f45606766")
 		(sheetname "/Watchdog/")
 		(sheetfile "watchdog.kicad_sch")
@@ -3994,7 +4306,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd74hc4060.pdf?ts=1787889331539&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD74HC4060"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4007,7 +4319,7 @@
 				)
 			)
 		)
-		(property "Description" "Binary counter (14-stages) and oscillator"
+		(property "Description" "Counter IC Binary Counter, 14-Stage with Oscillator, 16-TSSOP"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4020,7 +4332,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "DIP?16*7.62* TSSOP*16*4.4x5* SOIC*16*3.9x9.9*")
+		(property "InvenTree" "63"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f06dbb2c-2ee4-46fb-8647-ac03bb8f2f57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/63/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "506934b2-5334-45ad-aae7-05f45f3f0f18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "307-0006"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c9f1284-e8ec-4117-9c5d-2c2f48bf58d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Package_SO:TSSOP-16_4.4x5mm_P0.65mm")
 		(path "/9e81eff7-fa8a-4d9c-b865-cbf1c6348e7c/d1c7b730-c634-4f61-979f-e8a48ce8dda4")
 		(sheetname "/Watchdog/")
 		(sheetfile "watchdog.kicad_sch")
@@ -4426,7 +4777,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X6S 0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4439,7 +4790,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
+		(property "InvenTree" "42"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81ffa493-f6d6-48a3-9c67-703f36d38e99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/42/"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0380ab9-85f8-44aa-b652-afd0705d254e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "301-0007"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97f57bec-6abc-4caa-bceb-2f86312bef20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Capacitor_SMD:C_0402_1005Metric")
 		(path "/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a/8571c95b-9bb7-4c6d-ac41-a2ff4afda332")
 		(sheetname "/Boost/")
 		(sheetfile "boost.kicad_sch")
@@ -4579,7 +4969,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4592,7 +4982,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
+		(property "InvenTree" "44"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5ff0a1d-f9a9-4afa-8a5f-2c1a1d7f514c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/44/"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdaf407c-1ea1-4790-b4a6-ebe0edd4936a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "301-0009"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9cb1793-e96a-4b84-8bf0-a0a14c1a6de4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Capacitor_SMD:C_0805_2012Metric")
 		(path "/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a/fd30f604-1b8e-4209-8dd9-f043f948ba8e")
 		(sheetname "/Boost/")
 		(sheetfile "boost.kicad_sch")
@@ -5232,7 +5661,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5245,7 +5674,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
+		(property "InvenTree" "57"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b39fc903-1f79-458a-a81b-81dd8bcf2372")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/57/"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5003adb-d6a8-493d-894a-c52fb46b2935")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "302-0021"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08ce542a-a4dd-49db-9361-dc88be34fee9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Resistor_SMD:R_0402_1005Metric")
 		(path "/8fba3b35-d615-47af-8081-02211a3ffbd2/6358abe0-fd04-4aba-bb79-c5a4827a9763")
 		(sheetname "/Current Buffer/")
 		(sheetfile "buffer.kicad_sch")
@@ -6476,7 +6944,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6489,7 +6957,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
+		(property "InvenTree" "57"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0df2ce19-2e70-4094-9a29-67289217c9ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/57/"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30630bcf-1bd4-4085-9ba6-ca2d06f66f1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "302-0021"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "284eb8a8-1200-4117-a4e7-64a05116567b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Resistor_SMD:R_0402_1005Metric")
 		(path "/8fba3b35-d615-47af-8081-02211a3ffbd2/b8dc2385-3350-4b4e-b383-d76711f374da")
 		(sheetname "/Current Buffer/")
 		(sheetfile "buffer.kicad_sch")
@@ -6629,7 +7136,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "220 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6642,7 +7149,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
+		(property "InvenTree" "55"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63f95b95-a139-47db-b7d8-522fda3d720c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/55/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c691080c-42c7-44c5-92bb-002b9f49ecf2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "302-0019"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e35c974-a184-44b7-8aa9-5cd4207b273e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Resistor_SMD:R_0402_1005Metric")
 		(path "/9e81eff7-fa8a-4d9c-b865-cbf1c6348e7c/f6b2e88a-f08f-4916-b919-9236359f3b1b")
 		(sheetname "/Watchdog/")
 		(sheetfile "watchdog.kicad_sch")
@@ -6782,7 +7328,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "4.7 µF ±10% 25V Ceramic Capacitor X6S 0603 (1608 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6795,7 +7341,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
+		(property "InvenTree" "46"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a9aa00c-939b-4d14-aa36-be107d091165")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/46/"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc679863-4c45-45b2-8ca7-bd5c1fa55892")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "301-0012"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f38c6435-c446-4bb1-955d-ead492f6d778")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Capacitor_SMD:C_0603_1608Metric")
 		(path "/9e81eff7-fa8a-4d9c-b865-cbf1c6348e7c/bfe7e8f5-04b8-4127-8c2b-8cfe64446b82")
 		(sheetname "/Watchdog/")
 		(sheetfile "watchdog.kicad_sch")
@@ -6935,7 +7520,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "2.2 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6948,7 +7533,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
+		(property "InvenTree" "48"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "433d7e2c-b47d-4425-bdda-0e0f8ae6e84f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/48/"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e779b0b4-29a5-4f1b-a6a5-a8f4846fb4ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "301-0014"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3722a7d9-2e39-4453-b3f0-5e0de5971d34")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Capacitor_SMD:C_0603_1608Metric")
 		(path "/30c47c1f-896c-4e79-b6a9-de917104acdf/c08d38de-dac4-4cd4-9e85-e4cc2da84c55")
 		(sheetname "/Rail Splitter/")
 		(sheetfile "rail_splitter.kicad_sch")
@@ -7088,7 +7712,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7101,7 +7725,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
+		(property "InvenTree" "57"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9142941b-ecf7-4400-bdd1-3d95e79acf58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/57/"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7e0390e-dad9-4257-aa08-d26634f9f61c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "302-0021"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b360380-239a-48cc-9745-aaed0615b11b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Resistor_SMD:R_0402_1005Metric")
 		(path "/8fba3b35-d615-47af-8081-02211a3ffbd2/e079f50a-7310-466d-bf91-805361e5481e")
 		(sheetname "/Current Buffer/")
 		(sheetfile "buffer.kicad_sch")
@@ -7804,7 +8467,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1622.pdf"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7817,7 +8480,7 @@
 				)
 			)
 		)
-		(property "Description" "High-Fidelity, Bipolar-Input, Audio Operational Amplifier, VSON-10"
+		(property "Description" "Audio Amplifier 2 Circuit Rail-to-Rail 10-VSON (3x3)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7830,7 +8493,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Texas*PVSON*")
+		(property "InvenTree" "61"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb330c06-f19c-486f-b0eb-cef2db236347")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/61/"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a14c2755-c41f-4ba6-aefa-61c70aedeee1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "307-0004"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb619b3f-a1de-474a-822d-5f2dd29f6645")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "integrated_circuits:Texas_S-PVSON-N10")
 		(path "/8fba3b35-d615-47af-8081-02211a3ffbd2/0788a2e6-8cbd-4a7c-943d-c8215ca42c90")
 		(sheetname "/Current Buffer/")
 		(sheetfile "buffer.kicad_sch")
@@ -8877,7 +9579,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "JST SH2"
 			(at 0 3.3 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8902,7 +9604,7 @@
 				)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
+		(property "Description" "Connector Header Surface Mount 2 position 0.039\" (1.00mm)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8915,13 +9617,53 @@
 				)
 			)
 		)
+		(property "InvenTree" "41"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa7fc8ba-abc4-4444-994d-8d3c43a9549f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/41/"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cd3426f-9efb-4fda-8dd1-785f282a252b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "310-0009"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15b95ba1-1ca3-4bfe-b397-2ad213ed9bbf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical")
 		(path "/88a6fbe6-41b3-454b-9d65-28a89e2e6ca4/1c0eaa10-6d5e-45e8-89db-edc6f1a090a3")
 		(sheetname "/Battery Charger/")
 		(sheetfile "charger.kicad_sch")
 		(units
 			(unit
 				(name "A")
-				(pins "1" "MP" "2")
+				(pins "1" "2")
 			)
 		)
 		(attr smd)
@@ -9265,9 +10007,6 @@
 			(size 1.2 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net "/Battery Charger/OUT")
-			(pinfunction "MP_MP")
-			(pintype "passive")
 			(uuid "ab58de28-7504-4216-93a1-ef9fc00867a0")
 		)
 		(pad "MP" smd roundrect
@@ -9275,9 +10014,6 @@
 			(size 1.2 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net "/Battery Charger/OUT")
-			(pinfunction "MP_MP")
-			(pintype "passive")
 			(uuid "816ee13c-549d-4f03-a857-40bcadb3e068")
 		)
 		(embedded_fonts no)
@@ -9311,7 +10047,7 @@
 				)
 			)
 		)
-		(property "Value" "TLE2426xD"
+		(property "Value" "TLE2426"
 			(at 0 3.4 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9323,7 +10059,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tle2426.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9336,7 +10072,7 @@
 				)
 			)
 		)
-		(property "Description" "Precision virtual ground, noise reduction pin, 4V to 40V input, SOIC-8"
+		(property "Description" "Rail Splitter, Precision Virtual Ground 4V-40V 20mA 8-SOIC, AEC-Q100"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9349,7 +10085,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
+		(property "InvenTree" "62"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc30e80e-0cea-4ec0-af4e-abdfac319ae6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/62/"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fcce4b25-b562-4e4e-b349-e64de6087e15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "307-0005"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc125348-650f-4ec9-8045-ebcfc9b4dcb2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
 		(path "/30c47c1f-896c-4e79-b6a9-de917104acdf/57f8f79d-18ae-4772-81dc-682e53aa712d")
 		(sheetname "/Rail Splitter/")
 		(sheetfile "rail_splitter.kicad_sch")
@@ -10097,7 +10872,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10110,7 +10885,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
+		(property "InvenTree" "57"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a4df164-f75e-4d83-bd0c-a71332f7977a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/57/"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3531a8e3-540b-4018-ba7b-6d3b6f7e57de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "302-0021"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b766268-16ae-489c-ba90-78173318bdb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Resistor_SMD:R_0402_1005Metric")
 		(path "/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a/920194e2-7343-42df-805e-cfcb54c97d5c")
 		(sheetname "/Boost/")
 		(sheetfile "boost.kicad_sch")
@@ -10250,7 +11064,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.22 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10263,7 +11077,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
+		(property "InvenTree" "49"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d973b99-0b46-484d-92fb-baa2cc974dad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/49/"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1af1991e-5d42-4596-b659-aec4d653a1d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "301-0015"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b52abc91-bd85-4329-83c8-607cc7a9e71a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Capacitor_SMD:C_0402_1005Metric")
 		(path "/9e81eff7-fa8a-4d9c-b865-cbf1c6348e7c/bad08bd9-0f3d-46cd-ab16-7659b7925d82")
 		(sheetname "/Watchdog/")
 		(sheetfile "watchdog.kicad_sch")
@@ -10883,7 +11736,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "2.2 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10896,7 +11749,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
+		(property "InvenTree" "48"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e98f181a-6d3d-420f-82f7-6c7ab3b2b93a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/48/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "676a4b8a-447e-4ad0-a8c1-4b8a1ca4ef59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "301-0014"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f15f3de-60a1-4c85-b969-d703d767b3d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Capacitor_SMD:C_0603_1608Metric")
 		(path "/8fba3b35-d615-47af-8081-02211a3ffbd2/f8f7c48e-4353-40a1-88b8-a718befb0f40")
 		(sheetname "/Current Buffer/")
 		(sheetfile "buffer.kicad_sch")
@@ -11036,7 +11928,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.68 µF ±10% 10V Ceramic Capacitor X7S 0402 (1005 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11049,7 +11941,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
+		(property "InvenTree" "50"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d658721-18d3-4069-b646-eaca1f6ce5b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/50/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fbeac38-ff9f-4fcd-a8cb-82a5ac0cc966")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "301-0016"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac9bfd85-a3e0-4e7a-9252-0e416f1c6d42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Capacitor_SMD:C_0402_1005Metric")
 		(path "/9e81eff7-fa8a-4d9c-b865-cbf1c6348e7c/e9a48dfe-3b09-4557-ab21-2839609455ff")
 		(sheetname "/Watchdog/")
 		(sheetfile "watchdog.kicad_sch")
@@ -11937,7 +12868,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10000 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11950,7 +12881,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
+		(property "InvenTree" "43"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25a3c938-7a5c-405a-ace8-557f429c541c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/43/"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22bd8eaa-1430-4441-a644-c67be5bfb649")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "301-0008"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c511494-c677-48b8-aab9-32dcaea6ce86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Capacitor_SMD:C_0402_1005Metric")
 		(path "/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a/d33f893d-15d2-4799-95de-b839ebe42ad8")
 		(sheetname "/Boost/")
 		(sheetfile "boost.kicad_sch")
@@ -12407,7 +13377,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X6S 0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12420,7 +13390,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
+		(property "InvenTree" "42"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03d9581b-92d5-42f1-b359-a35852fc2bba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/42/"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e689d1e8-f1e9-47bd-8466-52d37b43025b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "301-0007"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9103af4-3d91-4703-bb62-b1e72ea28c93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Capacitor_SMD:C_0402_1005Metric")
 		(path "/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a/17394244-9ad5-433c-957c-a66a9bcab2b7")
 		(sheetname "/Boost/")
 		(sheetfile "boost.kicad_sch")
@@ -14906,7 +15915,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 0 2.1 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14931,7 +15940,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "Diode Standard 100 V 300mA Surface Mount SOD-123"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14970,7 +15979,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
+		(property "InvenTree" "37"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8c9ea43-7ea2-4220-96a1-473c5fa9278b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/37/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82a20551-cb6a-446d-80d5-a2eb64edd239")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "308-0002"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2dd01662-4984-41f5-8e2d-861fd34daa6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Diode_SMD:D_SOD-123")
 		(path "/fdaed4ad-6382-4025-bc3e-39eb3bc4a0fb/2b38d30f-2642-484f-b594-d6606ec5ace2")
 		(sheetname "/Audio Input/")
 		(sheetfile "audio_in.kicad_sch")
@@ -15250,7 +16298,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "Amber 605nm LED Indication - Discrete 2.1V 0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15276,7 +16324,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(property "InvenTree" "38"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4200bea4-2459-43f6-87aa-9f89b2c2cf20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/38/"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8cd69584-b567-4db7-9768-c340369af271")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "308-0003"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa4dd06d-e388-4ee9-be52-b6bdc9e3b673")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED_SMD:LED_0402_1005Metric")
 		(path "/88a6fbe6-41b3-454b-9d65-28a89e2e6ca4/bc97b780-0b9a-42eb-b242-0ebe89367519")
 		(sheetname "/Battery Charger/")
 		(sheetfile "charger.kicad_sch")
@@ -15621,7 +16708,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15634,7 +16721,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
+		(property "InvenTree" "57"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1c53656-c9a7-46a6-a9dd-47aa77c99de7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/57/"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb46669f-4e16-40b5-964d-a832c4f93138")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "302-0021"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67f3c32d-2ac3-469b-be2f-7c6ade9cce58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Resistor_SMD:R_0402_1005Metric")
 		(path "/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a/b0cebd11-e36f-4b3b-a512-85f52cc467aa")
 		(sheetname "/Boost/")
 		(sheetfile "boost.kicad_sch")
@@ -17847,7 +18973,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17860,7 +18986,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
+		(property "InvenTree" "57"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c9d83ba-d9e7-4523-92db-4ac800ea35af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/57/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfb1d721-87ed-4cf5-aadf-6ee8d4a23e0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "302-0021"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0435b17-4a28-40af-902c-e4cfe451ff03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Resistor_SMD:R_0402_1005Metric")
 		(path "/8fba3b35-d615-47af-8081-02211a3ffbd2/d20ca3cb-56f3-469c-a090-d0dead63a064")
 		(sheetname "/Current Buffer/")
 		(sheetfile "buffer.kicad_sch")
@@ -18627,7 +19792,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "2.2 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18640,7 +19805,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
+		(property "InvenTree" "48"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0368d48-7e80-493f-9990-2aec978b3f39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/48/"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fd21a0a-3299-4e47-af1c-c5b9eac29444")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "301-0014"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3dd3df7-a09e-4117-a680-824a47ae3224")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Capacitor_SMD:C_0603_1608Metric")
 		(path "/9e81eff7-fa8a-4d9c-b865-cbf1c6348e7c/21242959-d45c-4205-bbf8-b0f4931376c7")
 		(sheetname "/Watchdog/")
 		(sheetfile "watchdog.kicad_sch")
@@ -18755,7 +19959,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 0 2.1 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18780,7 +19984,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "Diode Standard 100 V 300mA Surface Mount SOD-123"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18819,7 +20023,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
+		(property "InvenTree" "37"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3cf3d29-7bde-447f-96cb-9692d315992d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/37/"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6085e0fa-a506-4b01-9879-c8c77d1b8b26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "308-0002"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "053ba3d3-83eb-4f42-9f05-23671c76fe7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Diode_SMD:D_SOD-123")
 		(path "/fdaed4ad-6382-4025-bc3e-39eb3bc4a0fb/2ec878fc-ec3e-4bae-a452-c01aa84a7be3")
 		(sheetname "/Audio Input/")
 		(sheetfile "audio_in.kicad_sch")
@@ -19854,7 +21097,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19867,7 +21110,7 @@
 				)
 			)
 		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "N-Channel 50 V 200mA Surface Mount SOT-23-3"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19880,7 +21123,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "SOT?23*")
+		(property "InvenTree" "58"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b51f531-1bb6-44d4-a7eb-8382b0f6f1db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/58/"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "855df8c9-dae8-4c7a-bb9b-4f18fc837b53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "303-0001"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8caac724-f8c9-42e4-bdcc-44a7599f4e08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Package_TO_SOT_SMD:SOT-23")
 		(path "/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a/3084a0e2-54b8-4a82-b91f-aaf27fdda599")
 		(sheetname "/Boost/")
 		(sheetfile "boost.kicad_sch")
@@ -20436,7 +21718,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20449,7 +21731,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
+		(property "InvenTree" "57"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62152d46-956a-492e-ab9a-0acc7f02ce90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/57/"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fabb51a-1493-4a35-84ed-bb1df47225ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "302-0021"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "deada073-a0ff-4ee1-b7c0-6ea6a5afe399")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Resistor_SMD:R_0402_1005Metric")
 		(path "/8fba3b35-d615-47af-8081-02211a3ffbd2/70583e44-4925-4893-8821-8a7af5c7f65e")
 		(sheetname "/Current Buffer/")
 		(sheetfile "buffer.kicad_sch")
@@ -20589,7 +21910,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20602,7 +21923,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
+		(property "InvenTree" "57"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e84498cd-144b-4aed-b060-dd40a7334540")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/57/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d8b4685-420d-41af-9b8b-743fa2fa3da8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "302-0021"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73d0a0c5-b882-485e-bf36-160b0eedc1d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Resistor_SMD:R_0402_1005Metric")
 		(path "/8fba3b35-d615-47af-8081-02211a3ffbd2/b632f229-531b-4965-831b-72c51fbf8e9a")
 		(sheetname "/Current Buffer/")
 		(sheetfile "buffer.kicad_sch")
@@ -21435,7 +22795,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21448,7 +22808,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
+		(property "InvenTree" "57"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b954c15-9f0b-40fa-9eae-af259f8f1700")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/57/"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "283e521f-ce31-45f5-8b95-34ab9df0fdd4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "302-0021"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e76b512-641f-4217-b759-147d1c6c8699")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Resistor_SMD:R_0402_1005Metric")
 		(path "/8fba3b35-d615-47af-8081-02211a3ffbd2/5d434f9c-a1b2-4a60-af1f-b74758b5aad7")
 		(sheetname "/Current Buffer/")
 		(sheetfile "buffer.kicad_sch")
@@ -21972,7 +23371,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X6S 0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21985,7 +23384,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
+		(property "InvenTree" "42"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "430110d4-bff8-4d47-9c22-d0a2eed29ce2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/42/"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7df416cb-fdb9-4d34-8d3b-6933d0808ca8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "301-0007"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a79f56a8-b998-4d21-8f5d-d695b61d2143")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Capacitor_SMD:C_0402_1005Metric")
 		(path "/88a6fbe6-41b3-454b-9d65-28a89e2e6ca4/ee6d67dd-6d8f-459c-936e-31014ffbb0cd")
 		(sheetname "/Battery Charger/")
 		(sheetfile "charger.kicad_sch")
@@ -22931,7 +24369,7 @@
 				)
 			)
 		)
-		(property "Value" "MDF2016BSS600CTD25"
+		(property "Value" "60R @ 2MHz"
 			(at 0 1.85 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22956,7 +24394,7 @@
 				)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "60 Ohms @ 2 MHz Power Line Ferrite Bead 0806 (2016 Metric) 850mA 330mOhm"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22969,7 +24407,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
+		(property "InvenTree" "60"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72b38bae-cda6-4ab3-b820-7eb7746b6cbd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/60/"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52de967e-00e7-4950-a09b-e4879969f107")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "306-0003"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25d7b6d5-57eb-47ca-b775-b8d17a478e75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Inductor_SMD:L_Wuerth_PMFI-201610")
 		(path "/fdaed4ad-6382-4025-bc3e-39eb3bc4a0fb/1225e504-b9b8-4971-8c0c-34c2dc7b5088")
 		(sheetname "/Audio Input/")
 		(sheetfile "audio_in.kicad_sch")
@@ -23624,7 +25101,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23637,7 +25114,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
+		(property "InvenTree" "57"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffea4021-ea5f-447f-828b-8652697e13d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/57/"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a76a975-8bd0-4e0a-a4bc-6ce3f01ce633")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "302-0021"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78065e42-a74e-4435-90d7-e34637a4d076")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Resistor_SMD:R_0402_1005Metric")
 		(path "/8fba3b35-d615-47af-8081-02211a3ffbd2/daceb746-2270-4702-9706-ed137132abae")
 		(sheetname "/Current Buffer/")
 		(sheetfile "buffer.kicad_sch")
@@ -23777,7 +25293,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "4.7 µF ±10% 25V Ceramic Capacitor X6S 0603 (1608 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23790,7 +25306,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
+		(property "InvenTree" "46"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14b8b363-a628-4056-b3a4-453af2386419")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/46/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b4bf78a-a747-41fa-805d-779b2c0c692d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "301-0012"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f1d528b-9f21-4883-b380-997b5f825ae4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Capacitor_SMD:C_0603_1608Metric")
 		(path "/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a/ef5731f5-c67e-4743-8c3b-2607f8a641a1")
 		(sheetname "/Boost/")
 		(sheetfile "boost.kicad_sch")
@@ -23904,7 +25459,7 @@
 				)
 			)
 		)
-		(property "Value" "74HC14BQ,115"
+		(property "Value" "74HC14"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23916,7 +25471,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23929,7 +25484,7 @@
 				)
 			)
 		)
-		(property "Description" "Hex inverter schmitt trigger"
+		(property "Description" "Inverter IC 6 Channel Schmitt Trigger 14-DHVQFN (2.5x3)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23942,7 +25497,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "DIP*W7.62mm*")
+		(property "InvenTree" "64"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd38949f-bb64-4f65-8f65-24597606bddc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/64/"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae132924-2e7d-45d4-9b66-87551bbb0efb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "307-0007"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b23bb4a-12a1-4985-baad-442653dfb8a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "integrated_circuits:DHVQFN14_SOT762-1_NEX")
 		(path "/9e81eff7-fa8a-4d9c-b865-cbf1c6348e7c/445e0ab0-b947-4ffd-9574-efc4d6e2272a")
 		(sheetname "/Watchdog/")
 		(sheetfile "watchdog.kicad_sch")
@@ -23973,7 +25567,7 @@
 			)
 			(unit
 				(name "G")
-				(pins "7" "14" "15")
+				(pins "14" "7")
 			)
 		)
 		(attr smd)
@@ -25020,7 +26614,7 @@
 			(at -0.25 1.4478 90)
 			(size 0.254 0.8128)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "GND")
+			(net "unconnected-(U7G-GND-Pad7)")
 			(pinfunction "GND_7")
 			(pintype "power_in")
 			(uuid "b4231047-02e7-4051-a463-6c226d9624bd")
@@ -25086,9 +26680,6 @@
 			(at 0 0 90)
 			(size 1.143 1.651)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "GND")
-			(pinfunction "EPAD_15")
-			(pintype "power_in")
 			(uuid "398b4d9b-0d33-4293-8112-155e5f05889e")
 		)
 		(embedded_fonts no)
@@ -26303,7 +27894,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26316,7 +27907,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
+		(property "InvenTree" "47"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56922914-943b-4aac-8e66-f213085ec912")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/47/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29f9dc72-a6ec-4f11-ab61-5f09d2209743")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "301-0013"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7012a5af-59c5-47ff-9afc-32a61b70c4cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Capacitor_SMD:C_0603_1608Metric")
 		(path "/30c47c1f-896c-4e79-b6a9-de917104acdf/cd85b03b-ca5f-4b80-8357-4de5d653b99e")
 		(sheetname "/Rail Splitter/")
 		(sheetfile "rail_splitter.kicad_sch")
@@ -26456,7 +28086,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26469,7 +28099,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
+		(property "InvenTree" "47"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f0a64e7-1170-4251-8afc-76cf097d4092")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/47/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3ed47d5-1b84-49c2-a5ec-b78d12997c9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "301-0013"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ea9fae8-568d-421b-8513-2a4a59229963")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Capacitor_SMD:C_0603_1608Metric")
 		(path "/9e81eff7-fa8a-4d9c-b865-cbf1c6348e7c/27261205-fbe2-469e-9916-6023eb9b9154")
 		(sheetname "/Watchdog/")
 		(sheetfile "watchdog.kicad_sch")
@@ -26609,7 +28278,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "4.7 µF ±10% 25V Ceramic Capacitor X6S 0603 (1608 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26635,7 +28304,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
+		(property "InvenTree" "46"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87067cae-d5f2-4274-b343-aa25c4e30e29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/46/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf0e756a-0448-4909-ac55-fd2d3f6300d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "301-0012"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32f9c33a-f94f-4b15-88d9-18d5aff17cca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Capacitor_SMD:C_0603_1608Metric")
 		(path "/88a6fbe6-41b3-454b-9d65-28a89e2e6ca4/50d9bea5-8e49-435f-9bb7-ba3e9ac42074")
 		(sheetname "/Battery Charger/")
 		(sheetfile "charger.kicad_sch")
@@ -27654,7 +29362,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "4.7 µF ±10% 25V Ceramic Capacitor X6S 0603 (1608 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27680,7 +29388,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
+		(property "InvenTree" "46"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6580901e-69be-4fad-a21c-1be9f32b8a3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/46/"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d35b4ff-a8de-4b32-b39c-c10159645e32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "301-0012"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0059789e-6677-49c0-a88d-4dad0dc0e896")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Capacitor_SMD:C_0603_1608Metric")
 		(path "/88a6fbe6-41b3-454b-9d65-28a89e2e6ca4/7f5a8358-e54b-4b50-8841-f61971197b71")
 		(sheetname "/Battery Charger/")
 		(sheetfile "charger.kicad_sch")
@@ -27795,7 +29542,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148W-7-F"
+		(property "Value" "1N4148W"
 			(at 0 2.1 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27820,7 +29567,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "Diode Standard 100 V 300mA Surface Mount SOD-123"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27859,7 +29606,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
+		(property "InvenTree" "37"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "581bb80e-efff-42c0-8f66-4e375238c361")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/37/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de1fe098-34cb-40fc-bab6-e408935a0d45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "308-0002"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75ab3cef-c7e1-43d1-8d7c-7912657aa771")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Diode_SMD:D_SOD-123")
 		(path "/9e81eff7-fa8a-4d9c-b865-cbf1c6348e7c/26f5d226-a896-4022-9f57-b48e00f45060")
 		(sheetname "/Watchdog/")
 		(sheetfile "watchdog.kicad_sch")
@@ -28523,7 +30309,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "3.3 µH ±20% Shielded Power Inductor 1.7A 140mOhm 1008 (2520 Metric), Isat 2.3A"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28536,7 +30322,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+		(property "InvenTree" "59"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b2a5b4d-bc8a-4d0d-bea1-c32c2f2a2318")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/59/"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb347f22-b201-4d2e-96ba-819e869b3a0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "305-0001"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c1bc597-7931-4d25-9ef7-47f2d0628345")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Inductor_SMD:L_1008_2520Metric")
 		(path "/339cf5c4-0941-46e9-ae9d-1b8a36e1ad6a/89e581d3-1ba1-4b0f-b851-553c444c92d3")
 		(sheetname "/Boost/")
 		(sheetfile "boost.kicad_sch")
@@ -29446,7 +31271,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "Amber 605nm LED Indication - Discrete 2.1V 0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29472,7 +31297,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(property "InvenTree" "38"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b9ee04a-48f8-4fba-af5f-404e124e6d2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/38/"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e5c5bc6-b2c4-42a7-80cc-bc151dbfe0ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "308-0003"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40b386bd-84fe-4f16-9ba3-f2546b01f3fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED_SMD:LED_0402_1005Metric")
 		(path "/88a6fbe6-41b3-454b-9d65-28a89e2e6ca4/d4e6bf82-8cd1-4f51-b85c-c0f991a686b5")
 		(sheetname "/Battery Charger/")
 		(sheetfile "charger.kicad_sch")
@@ -30009,7 +31873,7 @@
 				)
 			)
 		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+		(property "Description" "3.5 mm Audio Jack, Stereo (TRS), Surface Mount, Right Angle"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30022,7 +31886,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Jack*")
+		(property "InvenTree" "39"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a41354d-ee58-493a-a56b-ecd278ce9523")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/39/"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85b06d0f-4e4e-42e1-ad87-8786eb2332f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "310-0007"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d27c6eec-df93-4af1-8d1e-9212857d4096")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "connectors:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal")
 		(path "/8fba3b35-d615-47af-8081-02211a3ffbd2/6ebd5a2f-2b5b-4022-b27d-610955a26ff2")
 		(sheetname "/Current Buffer/")
 		(sheetfile "buffer.kicad_sch")
@@ -30371,7 +32274,7 @@
 				)
 			)
 		)
-		(property "Value" "TCJA106M016R0200"
+		(property "Value" "10uF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30396,7 +32299,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "10 µF ±20% 16V Molded Tantalum Polymer Capacitor 1206 (3216 Metric) 200mOhm"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30409,7 +32312,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "CP_*")
+		(property "InvenTree" "51"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba11d47d-73db-4b47-8fca-ba2163810141")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/51/"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8a0f620-4470-4dae-b14b-86e09a54210c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "301-0017"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfe8823d-9a69-4744-b872-1d1609a25672")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "polymers:TCJA_AVX")
 		(path "/14462d11-f69f-4768-a94b-e7cc4b589cf9/e80b7a32-1376-4ff3-9d5d-e25c1c11c08e")
 		(sheetname "/Power Input/")
 		(sheetfile "power_input.kicad_sch")
@@ -32034,7 +33976,7 @@
 				)
 			)
 		)
-		(property "Value" "AudioJack2"
+		(property "Value" "MJ-3523-SMT-TR"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32059,7 +34001,7 @@
 				)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+		(property "Description" "3.5 mm Audio Jack, Surface Mount, Right Angle"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32072,7 +34014,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Jack*")
+		(property "InvenTree" "40"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6246dc5d-38ee-47b7-93a9-cc03bb90f759")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/40/"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d8c5163-f7d1-44eb-9aa1-572c94942d7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "310-0008"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ecdff47-d681-470c-b748-a50586f6d334")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "connectors:CONN_MJ-3523_CUD")
 		(path "/fdaed4ad-6382-4025-bc3e-39eb3bc4a0fb/1f357351-8c46-4720-820f-7e480ffa0e56")
 		(sheetname "/Audio Input/")
 		(sheetfile "audio_in.kicad_sch")
