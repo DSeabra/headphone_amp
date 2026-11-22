@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "wd_comp_breakout")(type "KiCad")(uri "${KIPRJMOD}/wd_comp_breakout.kicad_sym")(options "")(descr "Project symbols"))
+)

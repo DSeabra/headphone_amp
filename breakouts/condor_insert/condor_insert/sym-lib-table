@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "condor_insert")(type "KiCad")(uri "${KIPRJMOD}/condor_insert.kicad_sym")(options "")(descr "Condor insert project symbols"))
+)
