@@ -199,6 +199,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -210,6 +211,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -221,6 +223,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -520,6 +523,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -754,7 +758,7 @@
         "uuid": "62ffec33-ae93-49a8-bfe6-566578dd8e82"
       }
     ],
-    "used_designators": "U9,D8",
+    "used_designators": "#FLG6,#FLG10,#FLG12,#FLG14,#PWR5,#PWR15-16,#PWR18-20,#PWR23-25,#PWR27-28,#PWR92,#PWR99-113,C1-7,C36-46,D8,FB3,J2,J4,J7,J9,J11-12,JP1-2,R10-16,R18,R56-67,TP1-3,U9-10",
     "variants": []
   },
   "sheets": [
@@ -784,7 +788,7 @@
     ],
     [
       "8fba3b35-d615-47af-8081-02211a3ffbd2",
-      "Current Buffer"
+      "Audio Output"
     ],
     [
       "9e81eff7-fa8a-4d9c-b865-cbf1c6348e7c",
@@ -797,6 +801,18 @@
     [
       "1b75c92e-5526-4022-9f84-403e76dcd775",
       "Mechanical"
+    ],
+    [
+      "ffeac89c-c0f6-40c9-a9ef-a7860ab55c8e",
+      "Gain Stage"
+    ],
+    [
+      "325ddb6e-a19e-4a56-8310-fd1d7ce76202",
+      "Recovery Stage"
+    ],
+    [
+      "3d40a6da-dfe6-401d-a834-1ed9017fded5",
+      "Condor Cab Sim"
     ]
   ],
   "text_variables": {

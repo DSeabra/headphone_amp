@@ -1855,7 +1855,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "8fba3b35-d615-47af-8081-02211a3ffbd2")
-		(property "Sheetname" "Current Buffer"
+		(property "Sheetname" "Audio Output"
 			(at 154.94 138.9884 0)
 			(show_name no)
 			(do_not_autoplace no)

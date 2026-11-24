@@ -1318,7 +1318,8 @@
 	)
 	(symbol
 		(lib_id "#inventree_kicad:PWR_CONN_2PIN_JST_PH2_RA_THRU")
-		(at 63.5 78.74 180)
+		(at 63.5 76.2 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1326,9 +1327,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0f824ae7-4161-4218-97fb-9ca5e92afb05")
+		(uuid "3b16a301-69cf-49a1-97ac-3d453bf7f8e0")
 		(property "Reference" "J2"
-			(at 60.452 76.2 0)
+			(at 60.452 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1338,7 +1339,7 @@
 			)
 		)
 		(property "Value" "JST PH2"
-			(at 57.658 78.486 0)
+			(at 57.658 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1348,7 +1349,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 63.5 78.74 0)
+			(at 63.5 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1359,7 +1360,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 78.74 0)
+			(at 63.5 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1370,7 +1371,7 @@
 			)
 		)
 		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.079\" (2.00mm)"
-			(at 63.5 78.74 0)
+			(at 63.5 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1381,7 +1382,7 @@
 			)
 		)
 		(property "InvenTree" "8"
-			(at 63.5 78.74 0)
+			(at 63.5 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1392,7 +1393,7 @@
 			)
 		)
 		(property "Part URL" "http://10.0.0.33/web/part/8/"
-			(at 63.5 78.74 0)
+			(at 63.5 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1403,7 +1404,7 @@
 			)
 		)
 		(property "IPN" "310-0002"
-			(at 63.5 78.74 0)
+			(at 63.5 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1414,10 +1415,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c7c9a307-c70f-470d-96c3-98e1912fb900")
+			(uuid "8bf32a92-625d-4747-b9c9-548bf18529a9")
 		)
 		(pin "2"
-			(uuid "f49486f2-9d46-45b0-acc0-dab5c5e70451")
+			(uuid "f44f07ae-74ec-4875-b9ac-b45ec4b2d353")
 		)
 		(instances
 			(project "headphone_amp"
