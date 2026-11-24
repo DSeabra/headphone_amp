@@ -4201,6 +4201,12 @@
 		(uuid "a24c30de-b4a6-40f2-a40f-b1565dd74bcb")
 	)
 	(junction
+		(at 147.32 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa6553c3-4050-4dad-97db-6a46a827d22d")
+	)
+	(junction
 		(at 167.64 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4563,6 +4569,16 @@
 			(type default)
 		)
 		(uuid "5f4dd48d-44ff-4a4a-8bb2-b0fd081f036b")
+	)
+	(wire
+		(pts
+			(xy 147.32 152.4) (xy 156.21 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6395a3ec-483d-4182-820f-7e2aa0ee1b2e")
 	)
 	(wire
 		(pts
@@ -5083,6 +5099,17 @@
 			(justify left bottom)
 		)
 		(uuid "fb1279cd-f6a1-4f1e-9bab-424dc4dfb265")
+	)
+	(hierarchical_label "PG"
+		(shape output)
+		(at 156.21 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a5f5d90-cb3e-4a75-8438-6307acde8317")
 	)
 	(hierarchical_label "V_{OUT}"
 		(shape output)
@@ -6473,7 +6500,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "83183eed-fb09-48e9-a752-a3fbf8f6ae29")
 		(property "Reference" "R53"

@@ -708,6 +708,12 @@
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Notes",
+          "name": "Notes",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -758,7 +764,7 @@
         "uuid": "62ffec33-ae93-49a8-bfe6-566578dd8e82"
       }
     ],
-    "used_designators": "#FLG6,#FLG10,#FLG12,#FLG14,#PWR5,#PWR15-16,#PWR18-20,#PWR23-25,#PWR27-28,#PWR92,#PWR99-113,C1-7,C36-46,D8,FB3,J2,J4,J7,J9,J11-12,JP1-2,R10-16,R18,R56-67,TP1-3,U9-10",
+    "used_designators": "#FLG6,#FLG9-12,#FLG14,#PWR5,#PWR15-16,#PWR18-20,#PWR23-25,#PWR27-28,#PWR47-49,#PWR54-56,#PWR61,#PWR92,#PWR99-121,C1-7,C20-21,C25,C36-49,D3-4,D8-11,FB3,J2,J4,J7,J9,J11-12,JP1-2,R10-16,R18,R29-31,R56-71,TP1-3,U9-12",
     "variants": []
   },
   "sheets": [
@@ -813,13 +819,17 @@
     [
       "3d40a6da-dfe6-401d-a834-1ed9017fded5",
       "Condor Cab Sim"
+    ],
+    [
+      "76d89cd5-2faa-49ff-a681-192463c96065",
+      "WD Audio Detect"
     ]
   ],
   "text_variables": {
-    "PCBA_IPN": "004-0001",
-    "PCB_IPN": "002-0001",
+    "PCBA_IPN": "004-0001B",
+    "PCB_IPN": "002-0001B",
     "PROJECT_NAME": "Portable Headphone Amp",
-    "REVISION": "A1"
+    "REVISION": "B1"
   },
   "tuning_profiles": {
     "meta": {
