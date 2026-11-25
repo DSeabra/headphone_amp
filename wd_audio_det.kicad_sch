@@ -1153,6 +1153,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "inventree_kicad:C_0U1_X7R_25V_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0.1uF"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "InvenTree" "52"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part URL" "http://10.0.0.33/web/part/52/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "IPN" "301-0018"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Capacitor_SMD:C_0402_1005Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0U1_X7R_25V_0402_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0U1_X7R_25V_0402_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "inventree_kicad:C_0U22_X7R_16V_0402"
 			(pin_numbers
 				(hide yes)
@@ -4424,6 +4601,119 @@
 		)
 	)
 	(symbol
+		(lib_id "inventree_kicad:C_0U1_X7R_25V_0402")
+		(at 213.36 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7c6c7a6-76ad-46f8-b6fd-27d18d1fc80f")
+		(property "Reference" "C49"
+			(at 213.36 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 213.36 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 217.17 87.9348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "301-0018"
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "InvenTree" "52"
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part URL" "http://10.0.0.33/web/part/52/"
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f6d58fc0-c6ee-4e11-b1c5-f7eb5b3803fa")
+		)
+		(pin "1"
+			(uuid "c1b6ee30-cd04-4c31-9088-ab308d59abbc")
+		)
+		(instances
+			(project "headphone_amp"
+				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/9e81eff7-fa8a-4d9c-b865-cbf1c6348e7c/76d89cd5-2faa-49ff-a681-192463c96065"
+					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "#power_symbols:VCC_LOCAL")
 		(at 204.47 85.09 0)
 		(unit 1)
@@ -4576,87 +4866,6 @@
 			(project "headphone_amp"
 				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/9e81eff7-fa8a-4d9c-b865-cbf1c6348e7c/76d89cd5-2faa-49ff-a681-192463c96065"
 					(reference "C48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 213.36 88.9 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fa098467-03bb-48c7-8171-b99883fc4919")
-		(property "Reference" "C49"
-			(at 211.328 87.376 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 220.218 87.122 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 213.36 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "VCC decoupling"
-			(at 213.36 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e93e3439-d7bd-436a-a2ce-26836a4f0ee3")
-		)
-		(pin "2"
-			(uuid "b0d00277-fa66-4e8c-abd0-492dc999eedd")
-		)
-		(instances
-			(project "headphone_amp"
-				(path "/62ffec33-ae93-49a8-bfe6-566578dd8e82/9e81eff7-fa8a-4d9c-b865-cbf1c6348e7c/76d89cd5-2faa-49ff-a681-192463c96065"
-					(reference "C49")
 					(unit 1)
 				)
 			)

@@ -2690,7 +2690,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1f357351-8c46-4720-820f-7e480ffa0e56")
 		(property "Reference" "J10"
 			(at 29.845 121.92 0)
